@@ -1,0 +1,8878 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道滨濂北社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "滨濂北社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.347272,
+          19.972765
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道石塔村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "石塔村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.407881,
+          19.881216
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇龙塘社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "龙塘社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.407277,
+          19.868029
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇三桥村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "三桥村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.415303,
+          19.888892
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇龙富村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "龙富村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.419855,
+          19.899818
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇仁三村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "仁三村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.419906,
+          19.915309
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇潭口村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "潭口村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.406512,
+          19.894631
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇龙光村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "龙光村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.396123,
+          19.901028
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇新民村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "新民村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.391521,
+          19.894977
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇龙新村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "龙新村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.399752,
+          19.885707
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇文道村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "文道村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.383965,
+          19.867298
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇三联村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "三联村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.396404,
+          19.877289
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区龙塘镇仁庄村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "龙塘镇",
+        "cun": "仁庄村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.459248,
+          19.884122
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区云龙镇南区社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "云龙镇",
+        "cun": "南区社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.414056,
+          19.835381
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区云龙镇儒林村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "云龙镇",
+        "cun": "儒林村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.488603,
+          19.866456
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区云龙镇云龙村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "云龙镇",
+        "cun": "云龙村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.451611,
+          19.857547
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区云龙镇长泰村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "云龙镇",
+        "cun": "长泰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.503705,
+          19.891839
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区云龙镇云阁村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "云龙镇",
+        "cun": "云阁村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.463627,
+          19.914449
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区云龙镇云蛟村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "云龙镇",
+        "cun": "云蛟村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.473136,
+          19.901577
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区云龙镇云裕村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "云龙镇",
+        "cun": "云裕村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.445943,
+          19.872265
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区云龙镇云岭村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "云龙镇",
+        "cun": "云岭村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.510583,
+          19.821047
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇土桥社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "土桥社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.503198,
+          19.826648
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇昌文村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "昌文村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.477813,
+          19.802554
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇大山村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "大山村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.509943,
+          19.801686
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇龙榜村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "龙榜村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.519566,
+          19.80832
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇合群村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "合群村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.53966,
+          19.839375
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇道崇村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "道崇村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.541497,
+          19.858633
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇苏寻三村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "苏寻三村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.541595,
+          19.78651
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇龙源村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "龙源村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.544821,
+          19.763436
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇龙发村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "龙发村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.505063,
+          19.762831
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇墨桥村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "墨桥村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.512116,
+          19.823852
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇红旗村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "红旗村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.53964,
+          19.755451
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区红旗镇福坡村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "红旗镇",
+        "cun": "福坡村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.559796,
+          19.711422
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇庆丰社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "庆丰社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.355166,
+          20.002586
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇谭新社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "谭新社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.56064,
+          19.717049
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇红明居居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "红明居居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.600739,
+          19.715261
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇新德村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "新德村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.564519,
+          19.690587
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇文岭村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "文岭村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.621014,
+          19.745772
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇美城村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "美城村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.570515,
+          19.748359
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇龙马村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "龙马村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.504884,
+          19.700161
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇谭文村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "谭文村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.503322,
+          19.735619
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇谷桥村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "谷桥村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.455366,
+          19.71817
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇文蛟村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "文蛟村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.487444,
+          19.675977
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇清泉村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "清泉村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.510369,
+          19.664419
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇友爱村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "友爱村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.483797,
+          19.72636
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇乐来村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "乐来村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.462665,
+          19.891545
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇龙盘村委员",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "龙盘村委员"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.56064,
+          19.717049
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区三门坡镇晨光村委员",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "三门坡镇",
+        "cun": "晨光村委员"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.567685,
+          19.624914
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区大坡镇博坡社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "大坡镇",
+        "cun": "博坡社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.569547,
+          19.623074
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区大坡镇大坡村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "大坡镇",
+        "cun": "大坡村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.580592,
+          19.55432
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区大坡镇新瑞村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "大坡镇",
+        "cun": "新瑞村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.591594,
+          19.585086
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区大坡镇中税村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "大坡镇",
+        "cun": "中税村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.534644,
+          19.631175
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区大坡镇福昌村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "大坡镇",
+        "cun": "福昌村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.619207,
+          19.640223
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区大坡镇树德村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "大坡镇",
+        "cun": "树德村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.618204,
+          19.568178
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区大坡镇中税农场生活区",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "大坡镇",
+        "cun": "中税农场生活区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.619077,
+          19.616245
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区大坡镇大坡镇东昌居生活区",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "大坡镇",
+        "cun": "大坡镇东昌居生活区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.495259,
+          19.610056
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇甲新社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "甲新社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.495405,
+          19.609109
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇甲子村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "甲子村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.477196,
+          19.596346
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇红岭村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "红岭村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.520181,
+          19.618191
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇群星村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "群星村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.472078,
+          19.605281
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇昌西村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "昌西村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.439919,
+          19.588447
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇青云村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "青云村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.495259,
+          19.610056
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇民昌村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "民昌村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.457015,
+          19.652431
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇琼新村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "琼新村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.438432,
+          19.64395
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇琼星村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "琼星村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3772,
+          19.680075
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇益民村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "益民村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.371367,
+          19.674695
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇仙民村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "仙民村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.412242,
+          19.63001
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇益新村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "益新村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.407216,
+          19.663797
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇大同村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "大同村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.518388,
+          19.570069
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇民兴村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "民兴村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.534434,
+          19.597881
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇新昌村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "新昌村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.495259,
+          19.610056
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇海丰村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "海丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.495259,
+          19.610056
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇长昌村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "长昌村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.372077,
+          19.67618
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区甲子镇新民林场生活区",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "甲子镇",
+        "cun": "新民林场生活区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.355166,
+          20.002586
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇双拥社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "双拥社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.395595,
+          19.765838
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇旧州村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "旧州村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.422334,
+          19.710354
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇岭南村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "岭南村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.434026,
+          19.82041
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇红卫村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "红卫村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39305,
+          19.740035
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇文新村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "文新村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.403126,
+          19.718528
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇雅秀村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "雅秀村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.404046,
+          19.726629
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇道美村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "道美村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.412448,
+          19.807263
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇联丰村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "联丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46839,
+          19.766235
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇联星村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "联星村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.447892,
+          19.756699
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇池连村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "池连村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.429848,
+          19.727525
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区旧州镇光明村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "旧州镇",
+        "cun": "光明村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.452744,
+          19.857465
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区省岭脚热带作物场省岭脚热带作物场虚拟生活区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "省岭脚热带作物场",
+        "cun": "省岭脚热带作物场虚拟生活区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.345765,
+          20.033088
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海府街道东湖里社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海府街道",
+        "cun": "东湖里社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海府街道白坡里社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海府街道",
+        "cun": "白坡里社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.351651,
+          20.029273
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海府街道龙峰社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海府街道",
+        "cun": "龙峰社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.347814,
+          20.028125
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海府街道龙舌坡社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海府街道",
+        "cun": "龙舌坡社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.338896,
+          20.030337
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海府街道大英社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海府街道",
+        "cun": "大英社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.342838,
+          20.027559
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海府街道南宝社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海府街道",
+        "cun": "南宝社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区蓝天街道龙岐社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "蓝天街道",
+        "cun": "龙岐社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.336532,
+          20.02225
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区蓝天街道万华社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "蓝天街道",
+        "cun": "万华社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.367316,
+          20.021804
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区蓝天街道塔光社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "蓝天街道",
+        "cun": "塔光社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区蓝天街道下洋社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "蓝天街道",
+        "cun": "下洋社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.347979,
+          20.043929
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区博爱街道新风里社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "博爱街道",
+        "cun": "新风里社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.342587,
+          20.045351
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区博爱街道振龙社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "博爱街道",
+        "cun": "振龙社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.344304,
+          20.042658
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区博爱街道龙文社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "博爱街道",
+        "cun": "龙文社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区博爱街道三亚社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "博爱街道",
+        "cun": "三亚社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346834,
+          20.039868
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区博爱街道南联社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "博爱街道",
+        "cun": "南联社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.343788,
+          20.039103
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区博爱街道联桂坊社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "博爱街道",
+        "cun": "联桂坊社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.345768,
+          20.036282
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区博爱街道红坎坡社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "博爱街道",
+        "cun": "红坎坡社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海甸街道新安社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海甸街道",
+        "cun": "新安社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.345316,
+          20.050972
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海甸街道沿江社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海甸街道",
+        "cun": "沿江社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.340798,
+          20.049516
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海甸街道金甸社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海甸街道",
+        "cun": "金甸社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.340203,
+          20.058343
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海甸街道海达社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海甸街道",
+        "cun": "海达社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海甸街道白沙门社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海甸街道",
+        "cun": "白沙门社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海甸街道福安社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海甸街道",
+        "cun": "福安社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.333353,
+          20.049775
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区人民街道银甸社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "人民街道",
+        "cun": "银甸社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区人民街道捕捞社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "人民街道",
+        "cun": "捕捞社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.334935,
+          20.055186
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区人民街道邦墩社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "人民街道",
+        "cun": "邦墩社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.328768,
+          20.060991
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区人民街道拦海社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "人民街道",
+        "cun": "拦海社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332259,
+          20.064407
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区人民街道新利社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "人民街道",
+        "cun": "新利社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.316506,
+          20.069152
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区人民街道万福社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "人民街道",
+        "cun": "万福社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区人民街道美丽沙社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "人民街道",
+        "cun": "美丽沙社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白龙街道美舍社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白龙街道",
+        "cun": "美舍社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359128,
+          20.036793
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白龙街道振兴社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白龙街道",
+        "cun": "振兴社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白龙街道五贤社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白龙街道",
+        "cun": "五贤社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白龙街道千家社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白龙街道",
+        "cun": "千家社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白龙街道流水坡社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白龙街道",
+        "cun": "流水坡社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白龙街道群上社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白龙街道",
+        "cun": "群上社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.354556,
+          20.037542
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区和平南街道文明社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "和平南街道",
+        "cun": "文明社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.350765,
+          20.03811
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区和平南街道君尧社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "和平南街道",
+        "cun": "君尧社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区和平南街道上坡社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "和平南街道",
+        "cun": "上坡社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区和平南街道琼苑社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "和平南街道",
+        "cun": "琼苑社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.350525,
+          20.034374
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区和平南街道光阳社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "和平南街道",
+        "cun": "光阳社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.351557,
+          20.044579
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白沙街道锦山里社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白沙街道",
+        "cun": "锦山里社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359986,
+          20.049156
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白沙街道白沙坊社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白沙街道",
+        "cun": "白沙坊社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359355,
+          20.031894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白沙街道白龙社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白沙街道",
+        "cun": "白龙社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区白沙街道岭下社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "白沙街道",
+        "cun": "岭下社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.366568,
+          20.058757
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区新埠街道新埠社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "新埠街道",
+        "cun": "新埠社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.346514,
+          20.047212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区新埠街道新东社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "新埠街道",
+        "cun": "新东社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.370988,
+          20.073764
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区新埠街道三联社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "新埠街道",
+        "cun": "三联社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.368024,
+          20.068736
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区新埠街道土尾社区居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "新埠街道",
+        "cun": "土尾社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.347163,
+          20.047712
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇晋美社区居委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "晋美社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.347163,
+          20.047712
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇仙云社区居委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "仙云社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.397102,
+          20.039346
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇东头村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "东头村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39502,
+          20.054857
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇东湖村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "东湖村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.395739,
+          20.015966
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇新琼村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "新琼村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.427367,
+          20.016894
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇林昌村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "林昌村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41997,
+          20.038067
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇新管村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "新管村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.400929,
+          20.028532
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇新市村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "新市村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.451632,
+          19.967713
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇锦丰村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "锦丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.451602,
+          19.958623
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇福玉村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "福玉村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41921,
+          20.050895
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇东营村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "东营村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.449287,
+          19.937767
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇仲恺村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "仲恺村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.412981,
+          20.025357
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇爱群村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "爱群村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.433196,
+          19.99446
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇灵山村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "灵山村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.422226,
+          19.964808
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇群山村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "群山村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.431527,
+          19.938312
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇晋文村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "晋文村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.410742,
+          19.986396
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇桥东村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "桥东村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.447028,
+          20.002547
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇大林村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "大林村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.441843,
+          19.984758
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇红丰村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "红丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.441732,
+          20.02748
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇大昌村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "大昌村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.398084,
+          20.004617
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇新岛村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "新岛村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.381966,
+          20.047284
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇东平村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "东平村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41355,
+          20.011562
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇美庄村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "美庄村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.382241,
+          20.064311
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区灵山镇东和村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "灵山镇",
+        "cun": "东和村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.551469,
+          19.952418
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇演丰社区居委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "演丰社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.583565,
+          19.985688
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇演海村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "演海村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.572706,
+          19.99849
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇边海村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "边海村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.565284,
+          20.023115
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇北港村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "北港村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.56336,
+          19.972837
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇演中村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "演中村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.493309,
+          19.940905
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇美兰村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "美兰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.59111,
+          19.946026
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇演东村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "演东村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.521555,
+          19.907191
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇苏民村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "苏民村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.555085,
+          19.947298
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇演南村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "演南村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.521864,
+          19.942017
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇昌城村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "昌城村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.494541,
+          19.962422
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇群庄村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "群庄村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.528203,
+          19.998833
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇塔市村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "塔市村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.533309,
+          19.979161
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇演西村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "演西村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.580433,
+          19.960028
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区演丰镇山尾村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "演丰镇",
+        "cun": "山尾村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.607152,
+          19.884231
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇三江社区居委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "三江社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.599822,
+          19.871153
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇三江居居民委员会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "三江居居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.599822,
+          19.871153
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇三江村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "三江村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.58927,
+          19.908723
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇茄南村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "茄南村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.59061,
+          19.924157
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇道学村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "道学村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.576591,
+          19.926747
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇茄芮村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "茄芮村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.553137,
+          19.876135
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇苏寻三村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "苏寻三村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.566692,
+          19.8711
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇上云村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "上云村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.625713,
+          19.854973
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇眼镜塘村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "眼镜塘村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.604342,
+          19.850121
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇江源村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "江源村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.602347,
+          19.87697
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区三江镇冲坡岭农场生活区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "三江镇",
+        "cun": "冲坡岭农场生活区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.676946,
+          19.803732
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇民乐社区居委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "民乐社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.682176,
+          19.804796
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇椰林社区居委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "椰林社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.347163,
+          20.047712
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇咸来社区居委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "咸来社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.64299,
+          19.838079
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇昌福村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "昌福村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.666557,
+          19.847682
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇金堆村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "金堆村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.688232,
+          19.81474
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇大东村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "大东村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.636469,
+          19.780246
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇永群村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "永群村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.638025,
+          19.80918
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇栽群村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "栽群村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.611386,
+          19.82382
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇咸来村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "咸来村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.568335,
+          19.825539
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇崇德村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "崇德村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.587168,
+          19.804963
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇美桐村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "美桐村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.604915,
+          19.790018
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇大榕村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "大榕村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.584808,
+          19.782672
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区大致坡镇美良村委会",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "大致坡镇",
+        "cun": "美良村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.463957,
+          19.985582
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）场部社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "场部社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）美莲社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "美莲社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）昌炳社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "昌炳社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）青合社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "青合社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）五一社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "五一社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）迈进社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "迈进社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）新群社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "新群社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.516703,
+          20.003389
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）振家社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "振家社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.485299,
+          20.008399
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）高山社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "高山社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）丰兴社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "丰兴社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）永卫社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "永卫社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.466568,
+          19.980685
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区海口桂林洋经济开发区（农场）传忠社区",
+        "cuncode": "460108000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "海口桂林洋经济开发区（农场）",
+        "cun": "传忠社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.555413,
+          19.892615
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市美兰区罗牛山农场罗牛山农场虚拟生活区",
+        "cuncode": "460109000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "美兰区",
+        "xiang": "罗牛山农场",
+        "cun": "罗牛山农场虚拟生活区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.285598,
+          20.004848
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区秀英街道秀华社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "秀英街道",
+        "cun": "秀华社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.279179,
+          20.0083
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区秀英街道秀海社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "秀英街道",
+        "cun": "秀海社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.270111,
+          20.009319
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区秀英街道秀中社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "秀英街道",
+        "cun": "秀中社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.271197,
+          20.001305
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区秀英街道秀新社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "秀英街道",
+        "cun": "秀新社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.252388,
+          20.005677
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区秀英街道高新居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "秀英街道",
+        "cun": "高新居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.259475,
+          20.003855
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区秀英街道向荣村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "秀英街道",
+        "cun": "向荣村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.278616,
+          20.012404
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区秀英街道书场村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "秀英街道",
+        "cun": "书场村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.278681,
+          20.040918
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀街道海港社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀街道",
+        "cun": "海港社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28766,
+          20.023763
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀街道东方洋社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀街道",
+        "cun": "东方洋社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.266539,
+          20.019187
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀街道长秀社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀街道",
+        "cun": "长秀社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.284186,
+          20.014807
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀街道金鼎社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀街道",
+        "cun": "金鼎社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.266713,
+          20.036148
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀街道十一支队家属社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀街道",
+        "cun": "十一支队家属社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.277118,
+          20.022534
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀街道爱华社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀街道",
+        "cun": "爱华社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.253215,
+          20.024984
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀街道天海社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀街道",
+        "cun": "天海社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.197219,
+          20.01406
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇长流墟社区居民委员会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "长流墟社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.19978,
+          20.056376
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇镇海社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "镇海社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.250178,
+          20.043456
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇长信社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "长信社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.234864,
+          20.038727
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇长彤社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "长彤社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.224661,
+          20.01439
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇长东村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "长东村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.206687,
+          20.013767
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇康安村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "康安村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.233317,
+          19.981439
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇会南村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "会南村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.207845,
+          20.015872
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇长丰村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "长丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.200675,
+          20.012459
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇美德村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "美德村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2052,
+          20.015136
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇博新村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "博新村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.211635,
+          20.003723
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇长南村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "长南村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.193189,
+          20.015212
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇堂善村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "堂善村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.197325,
+          20.014983
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇长流村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "长流村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.206687,
+          20.013767
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇堂昌村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "堂昌村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.195599,
+          20.036824
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇长北村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "长北村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.209023,
+          19.993409
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区长流镇美李村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "长流镇",
+        "cun": "美李村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.17757,
+          20.054229
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇长滨社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "长滨社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.147759,
+          20.027596
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇南港社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "南港社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.177012,
+          20.026042
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇博养村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "博养村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.179482,
+          20.033135
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇长德村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "长德村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.174393,
+          20.010522
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇龙头村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "龙头村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.172203,
+          20.010849
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇祥堂村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "祥堂村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.1613,
+          20.003
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇荣山村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "荣山村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.165218,
+          19.981692
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇新和村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "新和村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.150956,
+          19.998408
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇丰盈村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "丰盈村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.145604,
+          20.001985
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇拨南村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "拨南村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.153194,
+          20.057603
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇新海村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "新海村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.146276,
+          20.025822
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区西秀镇荣山寮村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "西秀镇",
+        "cun": "荣山寮村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.26267,
+          19.893086
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀镇海榆西社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀镇",
+        "cun": "海榆西社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.283199,
+          19.994789
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀镇海榆东社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀镇",
+        "cun": "海榆东社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.280099,
+          19.995296
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀镇新村村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀镇",
+        "cun": "新村村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.29111,
+          19.991616
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀镇水头村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀镇",
+        "cun": "水头村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.264615,
+          19.98684
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀镇业里村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀镇",
+        "cun": "业里村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.274247,
+          19.977703
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀镇儒益村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀镇",
+        "cun": "儒益村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.263012,
+          19.957822
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀镇周仁村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀镇",
+        "cun": "周仁村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.251866,
+          19.983149
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区海秀镇永庄村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "海秀镇",
+        "cun": "永庄村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.20795,
+          19.935889
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇石山墟社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "石山墟社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.164577,
+          19.957135
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇和平村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "和平村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.178087,
+          19.943948
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇扬佳村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "扬佳村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.179705,
+          19.949496
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇道堂村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "道堂村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.206111,
+          19.94015
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇北铺村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "北铺村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.20303,
+          19.928441
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇岭西村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "岭西村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.237193,
+          19.934376
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇施茶村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "施茶村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.187923,
+          19.882159
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇安仁村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "安仁村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.187705,
+          19.864777
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇福安村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "福安村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.233161,
+          19.908736
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇建新村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "建新村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.141951,
+          19.915423
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇美岭村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "美岭村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.168224,
+          19.86664
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区石山镇道育村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "石山镇",
+        "cun": "道育村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.26267,
+          19.893086
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇永兴社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "永兴社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.283331,
+          19.936473
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇永秀村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "永秀村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.258228,
+          19.913257
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇永德村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "永德村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.270195,
+          19.891673
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇美东村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "美东村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.255755,
+          19.886138
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇建中村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "建中村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.260133,
+          19.86695
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇雷虎村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "雷虎村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.243317,
+          19.85244
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇建群村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "建群村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.269888,
+          19.838161
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇罗经村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "罗经村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.250738,
+          19.889763
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区永兴镇博强村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "永兴镇",
+        "cun": "博强村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.22677,
+          19.755624
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇镇南社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "镇南社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.243625,
+          19.759133
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇镇北社区居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "镇北社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.241319,
+          19.758115
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇镇中居委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "镇中居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.202938,
+          19.793659
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇东星村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "东星村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.227468,
+          19.796562
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇儒万村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "儒万村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.264745,
+          19.775343
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇永华村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "永华村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.232859,
+          19.751538
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇东山村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "东山村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.252685,
+          19.730868
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇东溪村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "东溪村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.275359,
+          19.712458
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇光明村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "光明村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.288476,
+          19.710263
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇溪头村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "溪头村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.303276,
+          19.707672
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇马坡村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "马坡村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.317296,
+          19.721604
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇东苍村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "东苍村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.317533,
+          19.738829
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇玉下村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "玉下村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.310144,
+          19.748524
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇雅德村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "雅德村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.297162,
+          19.737879
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇建丰村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "建丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28834,
+          19.730341
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇文塘村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "文塘村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.285231,
+          19.726119
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇紫罗村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "紫罗村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.267884,
+          19.743378
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇前进村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "前进村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.276166,
+          19.732401
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇环湖村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "环湖村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.229633,
+          19.743438
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇东升村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "东升村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.243854,
+          19.718888
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇溪南村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "溪南村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.258922,
+          19.703182
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇射钗村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "射钗村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.245655,
+          19.695952
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇东城村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "东城村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.22211,
+          19.693986
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇城西村委会",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "城西村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.235248,
+          19.755487
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市秀英区东山镇东山热作场生活区",
+        "cuncode": "460105000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "秀英区",
+        "xiang": "东山镇",
+        "cun": "东山热作场生活区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.339674,
+          20.043469
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道人和坊社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "人和坊社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.340629,
+          20.041211
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道居仁坊社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "居仁坊社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.341411,
+          20.03805
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道园内里社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "园内里社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.334453,
+          20.042145
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道竹林社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "竹林社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.334448,
+          20.045119
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道得胜沙社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "得胜沙社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.336807,
+          20.044084
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道富兴社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "富兴社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.33332,
+          20.043152
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道义兴社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "义兴社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.33755,
+          20.03705
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道西湖社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "西湖社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.338405,
+          20.040461
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区中山街道西门外社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "中山街道",
+        "cun": "西门外社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道八灶社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "八灶社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.322778,
+          20.035299
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道滨海新村社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "滨海新村社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.33085,
+          20.041813
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道滨海社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "滨海社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.326014,
+          20.03693
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道盐灶一社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "盐灶一社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道盐灶二社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "盐灶二社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.323383,
+          20.038336
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道盐灶三社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "盐灶三社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.326065,
+          20.032418
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道龙华中社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "龙华中社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32694,
+          20.046299
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道滨港社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "滨港社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.317308,
+          20.04533
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道泰华社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "泰华社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.331083,
+          20.035764
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区滨海街道玉河社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "滨海街道",
+        "cun": "玉河社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.320225,
+          20.027794
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道龙华南社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "龙华南社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.318214,
+          20.032784
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道珠江社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "珠江社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.297957,
+          20.022242
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道世贸社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "世贸社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3145,
+          20.025106
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道国贸社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "国贸社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.299532,
+          20.042995
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道万绿园社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "万绿园社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.293243,
+          20.029545
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道金海社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "金海社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道玉沙社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "玉沙社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.29241,
+          20.020028
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道电力社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "电力社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.318348,
+          20.026497
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金贸街道嘉华社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金贸街道",
+        "cun": "嘉华社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332893,
+          20.037645
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道友谊社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "友谊社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.335335,
+          20.034258
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道大同里社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "大同里社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.323972,
+          20.025145
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道华海社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "华海社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.330471,
+          20.029431
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道龙昆上社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "龙昆上社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32849,
+          20.02761
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道龙昆下社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "龙昆下社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.326258,
+          20.020772
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道正义社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "正义社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道侨中社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "侨中社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332599,
+          20.032067
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道彩虹社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "彩虹社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332293,
+          20.032998
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道义龙东社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "义龙东社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区大同街道义龙西社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "大同街道",
+        "cun": "义龙西社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.304559,
+          20.013718
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道华垦社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "华垦社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.30559,
+          20.002437
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道垦中社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "垦中社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道海秀社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "海秀社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.29883,
+          20.001108
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道金山社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "金山社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.298785,
+          20.015598
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道顺发社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "顺发社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.297605,
+          20.010923
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道疏港社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "疏港社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道金牛岭社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "金牛岭社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道滨涯社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "滨涯社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.310036,
+          20.021407
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道金垦社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "金垦社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道秀英村社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "秀英村社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.299413,
+          20.018668
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道滨秀社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "滨秀社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.299627,
+          20.009036
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道滨濂南社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "滨濂南社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区海垦街道西岭社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "海垦街道",
+        "cun": "西岭社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.323219,
+          20.012832
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道银湖社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "银湖社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.330383,
+          20.010305
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道昌茂社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "昌茂社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道面前坡社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "面前坡社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道坡巷社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "坡巷社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道坡博东社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "坡博东社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.326087,
+          20.003293
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道坡博西社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "坡博西社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.319995,
+          20.000371
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道金坡社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "金坡社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道南沙社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "南沙社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道海德社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "海德社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区金宇街道坡博南社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "金宇街道",
+        "cun": "坡博南社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32291,
+          19.984885
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇府西社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "府西社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇金盘社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "金盘社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.334031,
+          19.992428
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇仁里南社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "仁里南社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇仁里北社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "仁里北社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332615,
+          19.994331
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇四季华庭社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "四季华庭社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.269374,
+          19.956544
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇金沙社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "金沙社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.315491,
+          20.002856
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇金星社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "金星社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.339241,
+          19.977479
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇丁村南社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "丁村南社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.343023,
+          19.984307
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇丁村北社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "丁村北社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.337907,
+          20.04134
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇山高东社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "山高东社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.336566,
+          19.988268
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇山高西社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "山高西社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.328251,
+          19.975448
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇椰海社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "椰海社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.311737,
+          19.983103
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇头铺东社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "头铺东社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.337907,
+          20.04134
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇头铺西社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "头铺西社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.319598,
+          19.975781
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇高坡村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "高坡村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.317735,
+          19.970751
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇沙坡村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "沙坡村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.292619,
+          19.974537
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇苍西村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "苍西村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.299701,
+          19.966584
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇苍东村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "苍东村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332199,
+          19.968046
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇大样村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "大样村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.348164,
+          19.966566
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区城西镇薛村村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "城西镇",
+        "cun": "薛村村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.31835,
+          19.93576
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇观澜湖社区居委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "观澜湖社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.358396,
+          19.928601
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇挺丰村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "挺丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37836,
+          19.909136
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇玉符村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "玉符村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.335239,
+          19.878336
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇道贡村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "道贡村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.357595,
+          19.913081
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇龙桥村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "龙桥村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.376591,
+          19.888966
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇龙洪村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "龙洪村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.378758,
+          19.906851
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇玉荣村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "玉荣村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.336456,
+          19.898958
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇永东村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "永东村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.348115,
+          19.907607
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙桥镇三角园村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙桥镇",
+        "cun": "三角园村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.342456,
+          19.732507
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇文山村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "文山村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.349462,
+          19.72438
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇文丰村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "文丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.367386,
+          19.725419
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇新村村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "新村村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.360307,
+          19.738019
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇雄丰村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "雄丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36592,
+          19.733415
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇农丰村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "农丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.358396,
+          19.761311
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇新彩村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "新彩村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.368452,
+          19.752928
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇群益村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "群益村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37683,
+          19.762585
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇群丰村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "群丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.381863,
+          19.770768
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇民丰村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "民丰村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.362095,
+          19.778804
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇新坡村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "新坡村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.367621,
+          19.784946
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇光荣村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "光荣村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.339518,
+          19.777773
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇仁南村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "仁南村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.328787,
+          19.797637
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区新坡镇仁里村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "新坡镇",
+        "cun": "仁里村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.275101,
+          19.823695
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区遵谭镇新谭村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "遵谭镇",
+        "cun": "新谭村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.279326,
+          19.807773
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区遵谭镇群力村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "遵谭镇",
+        "cun": "群力村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.284057,
+          19.841909
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区遵谭镇咸谅村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "遵谭镇",
+        "cun": "咸谅村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.293976,
+          19.783085
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区遵谭镇龙合村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "遵谭镇",
+        "cun": "龙合村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.303188,
+          19.848704
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区遵谭镇咸东村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "遵谭镇",
+        "cun": "咸东村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.318276,
+          19.821524
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区遵谭镇东谭村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "遵谭镇",
+        "cun": "东谭村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.303055,
+          19.813567
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区遵谭镇遵谭村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "遵谭镇",
+        "cun": "遵谭村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.362058,
+          19.845647
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇东占社区居民委员会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "东占社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.338939,
+          19.867386
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇汉香村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "汉香村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.338939,
+          19.867386
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇扬亭村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "扬亭村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.402604,
+          19.82857
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇新江村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "新江村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.399378,
+          19.822986
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇五一村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "五一村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.349166,
+          19.796863
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇仁新村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "仁新村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.368795,
+          19.851577
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇雅咏村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "雅咏村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.336043,
+          19.812779
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇大叠村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "大叠村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.378336,
+          19.824496
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇椰子头村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "椰子头村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.373704,
+          19.813754
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇美仁坡村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "美仁坡村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.369374,
+          19.858989
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇新联村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "新联村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.368867,
+          19.869869
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇元平村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "元平村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.350401,
+          19.884206
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇市井村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "市井村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.355541,
+          19.87134
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇富伟村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "富伟村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.352504,
+          19.861705
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇永昌村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "永昌村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.339547,
+          19.868019
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇美定村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "美定村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.311905,
+          19.86761
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇占符村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "占符村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.311179,
+          19.883263
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市龙华区龙泉镇国扬村委会",
+        "cuncode": "460106000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "龙华区",
+        "xiang": "龙泉镇",
+        "cun": "国扬村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.362081,
+          20.009705
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区国兴街道巴伦社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "国兴街道",
+        "cun": "巴伦社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.373892,
+          20.014143
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区国兴街道攀丹社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "国兴街道",
+        "cun": "攀丹社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.350492,
+          20.015507
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区国兴街道米铺社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "国兴街道",
+        "cun": "米铺社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.336707,
+          20.011962
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区国兴街道道客社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "国兴街道",
+        "cun": "道客社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332601,
+          20.017052
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区国兴街道文政社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "国兴街道",
+        "cun": "文政社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.355166,
+          20.002586
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区国兴街道文坛社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "国兴街道",
+        "cun": "文坛社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.355166,
+          20.002586
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区国兴街道八一社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "国兴街道",
+        "cun": "八一社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.342101,
+          20.002507
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道府城社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "府城社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.341689,
+          20.00729
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道北官社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "北官社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.349145,
+          20.005059
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道忠介社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "忠介社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.354973,
+          20.002895
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道文庄社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "文庄社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.349445,
+          19.999936
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道云露社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "云露社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.340137,
+          19.997873
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道甘蔗园社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "甘蔗园社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.337304,
+          20.003831
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道龙昆南社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "龙昆南社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.350113,
+          20.006011
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道北胜社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "北胜社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.355174,
+          20.002576
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区府城街道鼓楼社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "府城街道",
+        "cun": "鼓楼社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.357953,
+          20.0058
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区滨江街道东门社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "滨江街道",
+        "cun": "东门社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.368529,
+          20.004378
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区滨江街道城东社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "滨江街道",
+        "cun": "城东社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.368529,
+          20.004378
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区滨江街道下坎社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "滨江街道",
+        "cun": "下坎社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.397625,
+          19.976585
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区滨江街道铁桥社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "滨江街道",
+        "cun": "铁桥社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.372644,
+          19.996649
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区滨江街道博桂社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "滨江街道",
+        "cun": "博桂社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.381762,
+          19.986827
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区滨江街道北冲溪社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "滨江街道",
+        "cun": "北冲溪社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.342488,
+          19.992055
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道大园社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "大园社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.351601,
+          19.993595
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道三峰社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "三峰社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.35678,
+          19.998379
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道高登社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "高登社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.361956,
+          19.995232
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道桂林社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "桂林社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.356539,
+          19.985199
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道凤翔社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "凤翔社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.355166,
+          20.002586
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道洗马桥社区居民委员会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "洗马桥社区居民委员会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.355557,
+          19.981795
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道迈瀛社区居委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "迈瀛社区居委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.392796,
+          19.969057
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道那央村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "那央村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.402982,
+          19.972047
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道五岳村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "五岳村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.383846,
+          19.970786
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道儒逢村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "儒逢村委会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.362532,
+          19.973642
+        ]
+      },
+      "properties": {
+        "fullname": "海南省海口市琼山区凤翔街道红星村委会",
+        "cuncode": "460107000000",
+        "sheng": "海南省",
+        "shi": "海口市",
+        "xian": "琼山区",
+        "xiang": "凤翔街道",
+        "cun": "红星村委会"
+      }
+    }
+  ]
+}

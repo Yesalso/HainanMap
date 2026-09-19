@@ -1,0 +1,500 @@
+# -*- coding: utf-8 -*-
+"""
+海南本岛 · 分县市乡镇地图（繁体标注，按Excel映射）
+每个县市单独输出，比例尺 1px=30m，无边距
+智能字号调整：优先28px，根据空间自动调整18~36px，自动换行，落点优化
+包含北峙岛（强制左侧外部，距离≥100像素）、临城镇（优先上方）、
+杨浦经济开发区和兴隆华侨农场强制换行
+"""
+import os
+import re
+import warnings
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+from matplotlib import font_manager
+import geopandas as gpd
+import pandas as pd
+import numpy as np
+from io import BytesIO
+from shapely.geometry import Point, Polygon
+
+# ===================== 配置区 =====================
+shp_path = "D:/Windows/Documents/海南省村界/海南省村界/海南村界.shp"
+excel_path = "D:/Windows/Documents/海南省村界/海南省村界/HainanMap.xlsx"
+out_dir = "C:/Users/Windows/Desktop/Output"
+
+TARGET_DPI = 100
+LINE_WIDTH_PT = 72.0 / TARGET_DPI
+TARGET_CRS = "EPSG:32649"
+BINARY_THRESHOLD = 200
+
+PIXEL_TO_METER = 30
+MARGIN_RATIO = 0.0
+FONT_MIN = 16
+FONT_MAX = 36
+FONT_DEFAULT = 28
+BASE_BUFFER_M = 3000
+# ==================================================
+
+warnings.filterwarnings("ignore", category=UserWarning, message="Glyph.*missing from font")
+os.makedirs(out_dir, exist_ok=True)
+
+# ---------- 简繁互转 ----------
+try:
+    from opencc import OpenCC
+    _cc_s2t = OpenCC("s2t")
+    _cc_t2s = OpenCC("t2s")
+    print("✓ OpenCC 已启用（简繁互转）")
+except Exception:
+    _cc_s2t = None
+    _cc_t2s = None
+    print("⚠️ 未安装 opencc，地名保持原样。建议：pip install opencc-python-reimplemented")
+
+def to_trad(s):
+    return _cc_s2t.convert(s) if _cc_s2t else s
+
+def to_simple(s):
+    return _cc_t2s.convert(s) if _cc_t2s else s
+
+# ---------- 字体查找 ----------
+def find_font():
+    names = {f.name for f in font_manager.fontManager.ttflist}
+    priority = ["PMingLiU", "MingLiU", "新細明體", "細明體", "Microsoft JhengHei", "SimHei", "SimSun"]
+    for n in priority:
+        if n in names:
+            return n
+    return None
+
+font_name = find_font()
+print("使用字体：", font_name)
+
+# ---------- 读取 Excel ----------
+if not os.path.exists(excel_path):
+    raise FileNotFoundError(f"Excel 文件不存在：{excel_path}")
+
+df_excel = pd.read_excel(excel_path, header=None, usecols="A,C,D,E", dtype=str)
+df_excel.columns = ["key", "en_name", "city_cn", "display_name"]
+df_excel = df_excel.dropna(subset=["key", "display_name", "city_cn"])
+df_excel["key"] = df_excel["key"].str.strip()
+df_excel["display_name"] = df_excel["display_name"].str.strip()
+df_excel["en_name"] = df_excel["en_name"].str.strip()
+df_excel["city_cn"] = df_excel["city_cn"].str.strip()
+
+key_to_info = {}
+for _, row in df_excel.iterrows():
+    key = row["key"]
+    if key not in key_to_info:
+        key_to_info[key] = {
+            "display": row["display_name"],
+            "city": row["city_cn"],
+            "en": row["en_name"]
+        }
+print(f"从 Excel 读取到 {len(key_to_info)} 条唯一映射记录")
+
+# ---------- 读取 SHP ----------
+if not os.path.exists(shp_path):
+    raise FileNotFoundError(f"SHP 文件不存在：{shp_path}")
+
+encodings = ["gbk", "utf-8", "gb2312", "latin1"]
+gdf = None
+for enc in encodings:
+    try:
+        gdf = gpd.read_file(shp_path, encoding=enc)
+        print(f"✓ 成功以 {enc} 编码读取")
+        break
+    except Exception:
+        continue
+if gdf is None:
+    raise ValueError("无法读取 SHP 文件，请检查文件或编码")
+
+# ---------- 字段识别 ----------
+cols = gdf.columns.tolist()
+name_candidates = ["XZQMC", "NAME", "name", "名称", "地名", "乡镇名", "行政村名"]
+name_col = None
+for c in name_candidates:
+    if c in cols:
+        name_col = c
+        break
+code_candidates = ["XZQDM", "CODE", "code", "行政区码", "行政代码"]
+code_col = None
+for c in code_candidates:
+    if c in cols:
+        code_col = c
+        break
+
+if name_col is None or code_col is None:
+    raise ValueError(f"未找到名称或代码字段。现有字段：{cols}")
+
+print(f"使用名称字段：{name_col}，代码字段：{code_col}")
+
+# ---------- 投影 ----------
+gdf = gdf.to_crs(TARGET_CRS)
+print(f"✓ 坐标系已统一为 {TARGET_CRS}（米制投影）")
+print("原始村界要素数：", len(gdf))
+
+# ---------- 排除三沙市 ----------
+gdf = gdf[~gdf[name_col].astype(str).str.startswith("三沙市")].copy()
+print("排除三沙市后要素数：", len(gdf))
+
+# ---------- 乡镇码 ----------
+gdf["乡镇码"] = gdf[code_col].astype(str).str[:9]
+
+# ---------- 提取乡镇名 ----------
+def extract_township(name):
+    s = str(name).strip()
+    m = re.match(r'^([\u4e00-\u9fff]+?(?:镇|街道|乡))', s)
+    if m:
+        return m.group(1)
+    m = re.search(r'([\u4e00-\u9fff]+?(?:街道|鎮|鄉|乡|镇))$', s)
+    if m:
+        return m.group(1)
+    return s
+
+# ---------- 合并乡镇 ----------
+township = gdf.dissolve(by="乡镇码", aggfunc="first").reset_index()
+township["原始全名"] = township["乡镇码"].map(
+    dict(zip(gdf["乡镇码"], gdf[name_col]))
+)
+township["提取乡镇名"] = township["原始全名"].apply(extract_township)
+
+# ---------- 匹配 Excel ----------
+matched_records = []
+for idx, row in township.iterrows():
+    code = row["乡镇码"]
+    full = row["原始全名"]
+    extracted = row["提取乡镇名"]
+    info = None
+    if code in key_to_info:
+        info = key_to_info[code]
+    elif full in key_to_info:
+        info = key_to_info[full]
+    elif extracted in key_to_info:
+        info = key_to_info[extracted]
+    else:
+        for k, v in key_to_info.items():
+            if k in extracted or extracted in k:
+                info = v
+                break
+    if info is not None:
+        matched_records.append({
+            "index": idx,
+            "display": info["display"],
+            "city": info["city"],
+            "en": info["en"]
+        })
+
+if not matched_records:
+    raise ValueError("没有任何乡镇匹配到 Excel 中的 A 列，请检查匹配键")
+
+township = township.loc[[r["index"] for r in matched_records]].copy()
+township["显示地名"] = [r["display"] for r in matched_records]
+township["县市"] = [r["city"] for r in matched_records]
+township["英文名"] = [r["en"] for r in matched_records]
+
+print(f"总共匹配到 {len(township)} 个乡镇/街道")
+
+# ---------- 分组 ----------
+grouped = township.groupby("县市")
+print("所有县市名称：", list(grouped.groups.keys()))
+print(f"共 {len(grouped)} 个县市")
+
+# ---------- 换行处理 ----------
+def format_text(txt):
+    """根据长度自动换行，针对长名称可强制换行"""
+    # 强制换行的特殊名称（无论长度多少都换行）
+    special_force = ["杨浦经济开发区", "興隆華僑農場", "兴隆华侨农场"]
+    # 检查是否包含这些关键字（简体或繁体）
+    for s in special_force:
+        if s in txt or to_trad(s) in txt or to_simple(s) in txt:
+            # 将其拆分为两行，例如 "杨浦经济开发区" -> "杨浦经济\n开发区"
+            # 更智能的分割：尽量平均
+            n = len(txt)
+            half = n // 2
+            # 尝试在中间位置分割
+            return txt[:half] + '\n' + txt[half:]
+    # 通用换行规则
+    if len(txt) >= 8:
+        n = len(txt)
+        part = n // 3
+        lines = [txt[i*part:(i+1)*part] for i in range(3)]
+        if n % 3 != 0:
+            lines[-1] += txt[3*part:]
+        return '\n'.join(lines)
+    elif len(txt) >= 5:
+        n = len(txt)
+        part = n // 2
+        lines = [txt[:part], txt[part:]]
+        return '\n'.join(lines)
+    else:
+        return txt
+
+# ---------- 压线检测 ----------
+def text_overlaps_boundary(point, text, font_size, geom, boundary, margin=2.0):
+    px_per_pt = TARGET_DPI / 72.0
+    char_width_px = font_size * 0.9 * px_per_pt
+    char_height_px = font_size * 1.2 * px_per_pt
+    lines = text.split('\n')
+    max_len = max(len(line) for line in lines) if lines else len(text)
+    text_width_px = max_len * char_width_px
+    text_height_px = len(lines) * char_height_px
+    text_width_m = text_width_px * PIXEL_TO_METER / TARGET_DPI
+    text_height_m = text_height_px * PIXEL_TO_METER / TARGET_DPI
+    minx = point.x - text_width_m/2
+    maxx = point.x + text_width_m/2
+    miny = point.y - text_height_m/2
+    maxy = point.y + text_height_m/2
+    bbox = Polygon([(minx, miny), (maxx, miny), (maxx, maxy), (minx, maxy)])
+    if boundary.is_empty:
+        return False
+    if bbox.intersects(boundary) or bbox.distance(boundary) < margin:
+        return True
+    return False
+
+# ---------- 智能标注 ----------
+# ---------- 智能标注（包含北峙岛和临城镇特例） ----------
+def optimize_label(geom, raw_text, base_font=FONT_DEFAULT):
+    # 将繁体转简体用于特例判断
+    simple_text = to_simple(raw_text) if _cc_t2s else raw_text
+
+    # 处理 MultiPolygon
+    if geom.geom_type == "MultiPolygon":
+        polygons = list(geom.geoms)
+        if not polygons:
+            return raw_text, FONT_MIN, geom.representative_point()
+        geom = max(polygons, key=lambda p: p.area)
+    boundary = geom.boundary
+    centroid = geom.centroid
+
+    # ===== 北峙岛特例：强制左侧外部，且距离边界 ≥ 100像素 =====
+    if ("北峙" in simple_text) or ("北峙" in raw_text):
+        print(f"  [北峙岛特例触发] 原始文本：{raw_text}")
+        min_dist_px = 100                      # 改为 100 像素
+        min_dist_m = min_dist_px * PIXEL_TO_METER  # 3000米
+
+        left_dirs = []
+        for angle in [180, 150, 210, 135, 225, 120, 240, 160, 200]:
+            rad = np.radians(angle)
+            left_dirs.append((np.cos(rad), np.sin(rad)))
+
+        for dist in np.arange(500, 8000, 100):
+            for dx, dy in left_dirs:
+                p = Point(centroid.x + dx * dist, centroid.y + dy * dist)
+                if not geom.contains(p):
+                    if not text_overlaps_boundary(p, raw_text, FONT_DEFAULT, geom, boundary, margin=min_dist_m):
+                        print(f"    找到合适左侧点：({p.x:.1f}, {p.y:.1f})，距离{int(dist)}米")
+                        return raw_text, FONT_DEFAULT, p
+                    else:
+                        for fs in range(FONT_DEFAULT - 2, FONT_MIN - 1, -2):
+                            if not text_overlaps_boundary(p, raw_text, fs, geom, boundary, margin=min_dist_m):
+                                print(f"    缩小字号至{fs}，点({p.x:.1f}, {p.y:.1f})")
+                                return raw_text, fs, p
+        fallback_dist = 4000
+        fallback_point = Point(centroid.x - fallback_dist, centroid.y)
+        print(f"    保底左侧偏移：({fallback_point.x:.1f}, {fallback_point.y:.1f})")
+        return raw_text, FONT_MIN, fallback_point
+
+    # ===== 强制换行映射（针对特定地名） =====
+    # 此处插入强制换行处理，确保洋浦经济开发区按指定方式换行
+    forced_wrap = {
+        "洋浦經濟開發區": "洋浦經濟\n開發區",   # 繁体
+        # 如有其他需要强制换行的地名，可在此添加
+    }
+    if raw_text in forced_wrap:
+        raw_text = forced_wrap[raw_text]   # 替换为强制换行版本
+        # 注意：raw_text 改变后，simple_text 未同步，但后续只用 raw_text 显示，特例已处理，无影响
+
+    # ===== 临城镇特例：优先上方 =====
+    candidate_points = []
+    candidate_points.append(centroid)
+    candidate_points.append(geom.representative_point())
+
+    if simple_text == "临城镇":
+        for dy in [500, 1000, 1500]:
+            up_p = Point(centroid.x, centroid.y + dy)
+            if geom.contains(up_p):
+                candidate_points.append(up_p)
+        buffer_list = [0.9, 0.7, 0.5, 0.3, 0.1]
+    else:
+        buffer_list = [0.8, 0.5, 0.3, 0.1]
+
+    # 缓冲候选点
+    for ratio in buffer_list:
+        try:
+            buffered = geom.buffer(-BASE_BUFFER_M * ratio)
+            if buffered.is_valid and not buffered.is_empty and buffered.area > 100:
+                candidate_points.append(buffered.centroid)
+        except:
+            pass
+
+    if geom.geom_type == "Polygon":
+        coords = list(geom.exterior.coords)
+        if len(coords) > 10:
+            import random
+            samples = random.sample(coords, min(30, len(coords)))
+            farthest = max(samples, key=lambda p: Point(p).distance(centroid))
+            candidate_points.append(Point(farthest))
+
+    unique_points = []
+    for p in candidate_points:
+        if not any(p.distance(q) < 1 for q in unique_points) and (geom.contains(p) or geom.touches(p)):
+            unique_points.append(p)
+    if not unique_points:
+        unique_points = [geom.representative_point()]
+
+    if simple_text == "临城镇":
+        unique_points.sort(key=lambda p: p.y, reverse=True)
+    else:
+        unique_points.sort(key=lambda p: p.distance(boundary), reverse=True)
+
+    directions = []
+    for angle in np.arange(0, 360, 22.5):
+        directions.append((np.cos(np.radians(angle)), np.sin(np.radians(angle))))
+    step = 15
+    max_steps = 50
+
+    def translate_search(initial_point, display_text, font_size):
+        if not text_overlaps_boundary(initial_point, display_text, font_size, geom, boundary):
+            return initial_point
+        best_point = None
+        best_dist = -1
+        for dx, dy in directions:
+            for i in range(1, max_steps+1):
+                new_p = Point(initial_point.x + dx*step*i, initial_point.y + dy*step*i)
+                if geom.contains(new_p):
+                    if not text_overlaps_boundary(new_p, display_text, font_size, geom, boundary):
+                        return new_p
+                    d = new_p.distance(boundary)
+                    if d > best_dist:
+                        best_dist = d
+                        best_point = new_p
+        return best_point
+
+    font_attempts = [FONT_DEFAULT]
+    for f in range(FONT_DEFAULT+2, FONT_MAX+1, 2):
+        font_attempts.append(f)
+    for f in range(FONT_DEFAULT-2, FONT_MIN-1, -2):
+        font_attempts.append(f)
+    font_attempts = sorted(set(font_attempts), key=lambda x: abs(x-FONT_DEFAULT))
+
+    for fs in font_attempts:
+        for point in unique_points:
+            display_txt = raw_text
+            if not text_overlaps_boundary(point, display_txt, fs, geom, boundary):
+                return display_txt, fs, point
+            new_p = translate_search(point, display_txt, fs)
+            if new_p is not None:
+                return display_txt, fs, new_p
+            # 如果长度≥5且当前文本未换行，尝试默认换行（仅当不是强制换行时）
+            if len(raw_text) >= 5 and '\n' not in raw_text:
+                display_txt_wrap = format_text(raw_text)
+                if not text_overlaps_boundary(point, display_txt_wrap, fs, geom, boundary):
+                    return display_txt_wrap, fs, point
+                new_p_wrap = translate_search(point, display_txt_wrap, fs)
+                if new_p_wrap is not None:
+                    return display_txt_wrap, fs, new_p_wrap
+        continue
+
+    fallback_point = geom.representative_point()
+    fallback_txt = format_text(raw_text) if len(raw_text)>=5 else raw_text
+    return fallback_txt, FONT_MIN, fallback_point
+# ---------- 绘图函数 ----------
+def generate_city_map(city_name, city_gdf):
+    en_names = city_gdf["英文名"].unique()
+    if len(en_names) != 1:
+        print(f"警告：县市 {city_name} 对应多个英文名 {en_names}，将使用第一个 {en_names[0]}")
+    en_name = en_names[0]
+
+    minx, miny, maxx, maxy = city_gdf.total_bounds
+    geo_w = maxx - minx
+    geo_h = maxy - miny
+    if geo_w <= 0 or geo_h <= 0:
+        print(f"⚠️ 县市 {city_name} 地理范围无效，跳过")
+        return
+
+    w_px = int(round(geo_w / PIXEL_TO_METER))
+    h_px = int(round(geo_h / PIXEL_TO_METER))
+    if w_px < 10 or h_px < 10:
+        print(f"⚠️ 县市 {city_name} 范围太小，像素尺寸 {w_px}×{h_px}，跳过")
+        return
+    MAX_PX = 20000
+    if w_px > MAX_PX or h_px > MAX_PX:
+        print(f"⚠️ 县市 {city_name} 像素尺寸 {w_px}×{h_px} 过大，跳过")
+        return
+
+    print(f"  生成 {city_name} ({en_name})，范围 {geo_w:.0f}m × {geo_h:.0f}m，尺寸 {w_px}×{h_px} px")
+
+    fig_w_inch = w_px / TARGET_DPI
+    fig_h_inch = h_px / TARGET_DPI
+    fig = plt.figure(figsize=(fig_w_inch, fig_h_inch), dpi=TARGET_DPI)
+    ax = fig.add_axes([0, 0, 1, 1])
+    ax.set_xlim(minx, maxx)
+    ax.set_ylim(miny, maxy)
+    ax.set_facecolor("white")
+    ax.set_aspect('equal')
+    ax.axis("off")
+
+    city_gdf.plot(
+        ax=ax,
+        edgecolor="black",
+        facecolor="white",
+        linewidth=LINE_WIDTH_PT,
+        antialiased=False,
+        legend=False
+    )
+
+    for idx, row in city_gdf.iterrows():
+        raw_txt = str(row["显示地名"])
+        trad_txt = to_trad(raw_txt)
+        display_txt, font_size, point = optimize_label(row.geometry, trad_txt)
+        ax.text(
+            point.x, point.y, display_txt,
+            fontsize=font_size,
+            ha="center", va="center",
+            fontfamily=font_name,
+            color="black",
+            zorder=3,
+            antialiased=True
+        )
+
+    out_file = os.path.join(out_dir, f"{en_name}.png")
+    print(f"  保存 {out_file} ...")
+    buf = BytesIO()
+    plt.savefig(buf, format="png", dpi=TARGET_DPI, pad_inches=0, bbox_inches=None, facecolor="white")
+    plt.close(fig)
+    buf.seek(0)
+
+    try:
+        import cv2
+        img_bgr = cv2.imdecode(np.frombuffer(buf.getvalue(), np.uint8), cv2.IMREAD_COLOR)
+        img_gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
+        _, img_bin = cv2.threshold(img_gray, BINARY_THRESHOLD, 255, cv2.THRESH_BINARY)
+        img_out = cv2.cvtColor(img_bin, cv2.COLOR_GRAY2BGR)
+        cv2.imwrite(out_file, img_out, [cv2.IMWRITE_PNG_COMPRESSION, 9])
+    except ImportError:
+        with open(out_file, "wb") as f:
+            f.write(buf.getvalue())
+        print("⚠️ 未安装 opencv-python，跳过量化。建议：pip install opencv-python")
+    except Exception as e:
+        print(f"⚠️ 量化失败 ({e})，直接保存原始 PNG")
+        with open(out_file, "wb") as f:
+            f.write(buf.getvalue())
+
+    label_file = os.path.join(out_dir, f"{en_name}_labels.txt")
+    with open(label_file, 'w', encoding='utf-8') as f:
+        f.write(f"县市：{city_name} ({en_name})\n")
+        f.write("=" * 40 + "\n")
+        f.write("乡镇码\t原始全名\t提取乡镇名\t显示地名\t繁体地名\t面积(m²)\t字号\n")
+        for idx, row in city_gdf.iterrows():
+            trad = to_trad(str(row["显示地名"]))
+            area = row.geometry.area
+            f.write(f"{row['乡镇码']}\t{row['原始全名']}\t{row['提取乡镇名']}\t{row['显示地名']}\t{trad}\t{area:.0f}\t-\n")
+    print(f"  对应表保存至 {label_file}")
+
+# ---------- 生成所有县市 ----------
+for city_name, city_gdf in grouped:
+    print(f"\n处理县市：{city_name}，包含 {len(city_gdf)} 个乡镇")
+    generate_city_map(city_name, city_gdf)
+
+print(f"\n✅ 全部完成！地图已保存至 {out_dir}")
