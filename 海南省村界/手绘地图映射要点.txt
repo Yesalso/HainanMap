@@ -1,0 +1,51 @@
+已读完 Sanya/ 下全部 py/txt、town/2002海口转换总结.txt、QA 报告及 fix_slivers.py 全源码。总结如下。
+
+一、整体数据链路
+海南村界.shp ──正向制图(Hainan.py)──▶ 手绘底图PNG ──人工改线──▶ Sanya2002.png
+   ──反向映射──▶ 三亚乡镇2002_123.shp(54片段) ──几何修复(fix_slivers.py)──▶ _fixed.shp(9乡镇)
+正向制图参数：EPSG:32649(UTM49N)、1px=30m、无页边距（Hainan.py:27-38）；三亚图幅 3023×1724。
+反向映射完全复用正向配准参数，保证像素↔米制坐标一一对应。
+二、反向映射（PNG→SHP，Sanya/reverse_sanya_2002.py）
+像素→地理公式（:58-59）：
+
+x = minx + (i+0.5)*step_x ,  y = maxy - (j+0.5)*step_y   (step=四至/W,H≈30m)
+流程：
+
+文字掩膜：两幅图(2002/2007)文字相同 → text = 2007黑像素 − SHP边界栅格（:96-98）。注意：SHP边界必须逐乡镇栅格化，不能先 union 再取 boundary（会抵消内部共享边，:92）。
+2002线网 = 2002黑像素 − 文字；max(lines, shp_lines) 兜底海岸线（:101-106）。
+形态学闭运算(3×3×2)+膨胀1px 桥接手绘断点、堵对角透缝（:108-116）。
+白色区域8连通洪泛 = 各单元内部（:118）；每区域取外轮廓，顶点吸附到线网中心像素（半径≤2px，消除半像素偏移，:135-149）。
+与 SHP 外部陆地 outer 求交、排除海水大区（:160-173）。
+缝隙填充：missing = outer − covered，每个缺口 buffer(40m) 找最大重叠邻居并入；剩余全是真海岛补回（:175-205）。
+属性继承：最大面积重叠匹配 2007 乡镇码 + TOWN_NAMES 字典→2002名称（:212-222）。
+输出 .shp/.geojson/_Albers.shp（转回源 Albers CRS）→ 栅格化回比 2002 线网做重合率校验。
+另一条路径 town/Sanya2002ToShp.py（初版原理用）：最大连通域取线网、海岸线直接栅格化 SHP 外框、闭运算桥接、白色洪泛出大区、线网/细缝像素按 distanceTransform 最近种子分配实现"无缝无叠唯一归属"、每区域轮廓 buffer(0.5*STEP) 让相邻区域共线同界。
+
+三、边界修改/修复（fix_slivers.py，核心工具)
+两种模式：
+
+topo（自洽）：make_valid + 精度归一 + 顶点吸附 + 缝隙归属 + 分块剔除。
+snap-ref（推荐，挂权威参考层=海南村界.shp）：
+形态学配准 conflate_to_reference（:889-930）：
+A_new = R_A ∪ opening(A\R_A, r)  \  opening(R_A\A, r)
+与权威边界厚度<2r=90m**的差异→1px级"配准噪声"抹平；**>2r→"真实手绘改动"保留（默认 preserve；force 则几何全用参考）。
+分区归一 resolve_partition（:624-816）：对配准后同时在"重叠+空洞"两面的争议区，按归属回退链裁定 原始图层orig-owner → 参考层ref-owner → 最长公共边界longest-border → 放弃报告；最后每要素 并入判给自己的 − 减去判给别人的 ∩域，微孔回填、精度归一。
+顶点吸附 snap_neighbors（:823-882，仅topo用）：相距<tol的相邻顶点互相吸附（参考线先按 tol/2 加密），附三重守卫（合法性/面积变化率/部件数增幅）防炸面。
+标准命令（run.log 实测）：
+
+python fix_slivers.py --input 三亚乡镇2002_123.shp \
+  --ref ../../海南村界.shp --ref-key 乡镇码 --key 乡镇码 \
+  --mode snap-ref --conflate-tol 90 --dissolve-by 乡镇码
+效果：54→9 要素，invalid=0，重叠 1.9m²、域缺口 55.6m²，30 个细缝全部归 460200002 田独镇；逐要素 symdiff 5.05km² 均为 2002/2007 真实历史差异。调参用 _tune_conflate.py（扫描 2r=30~2000m 选 90m）。
+
+四、海口经验的补充要点（town/2002海口转换总结.txt）
+先做配准：SHP 边界栅格化与图中黑线做模板匹配定偏移（海口 (0,310)）。
+开运算 g.buffer(-r).buffer(r) 忽略窄于 ~2r(90m) 的栅格差异，保留 base 顺滑线——"贴合原图"核心。
+校验必查：单元数一致、名单外逐字节不变（用 symmetric_difference().area==0 而非 .equals）、两两重叠=0、几何有效、出新vs base预览图。
+其他坑：闭环岛屿只对独立岛环替换；自由边沿法向加 30m/600m 正弦扰动消除直线感；CRS 重投影后要再 make_valid；Windows 下 $env:PYTHONIOENCODING='utf-8'。
+五、对批量更改的准备建议
+统一模板：配准→剥文字→线网→洪泛+轮廓吸附→陆地权威求交→conflate(r)→resolve→校验出图；fix_slivers.py 已通用化（--ref-filter XZQDM:<县前缀> 可从全岛裁出任意县）。
+复用/需按县调整的参数：conflate-tol(2r≈90m，由像素分辨率定)、snap-tol(≈30m)、max-gap-width(=2×snap_tol)、乡镇码位数（--ref-key-trim 9）。
+关键纪律：外轮廓永远以原 SHP 为权威；手绘改动与配准噪声用 r 厚度区分；争议区归属以原始图层优先；顶点吸附在 snap-ref 下默认跳过。
+文件约定：输出 _fixed.shp/_Albers.shp(转回源CRS)+面积变化表+QA报告+修复前后对比图；改主文件前留 _before_* 备份（如 Hainan_town_before_smooth.shp）。
+一句话流程：配准→二值化取线→只在差异超容差处按手绘线切→形态学保真配准抹噪声保留真改动→分区归一消除缝叠→逐项校验+预览图。

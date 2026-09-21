@@ -39,7 +39,7 @@ OUT_ENCODING = "utf-8"
 TARGET_CRS = "EPSG:32649"
 HAIKOU_PREFIX = "4601"
 
-MIN_MAIN_PX = 2000     # 小于此面积的白色区域视为碎块，并入最近区域
+MIN_MAIN_PX = 20       # 小于此面积的白色区域视为碎块，并入最近区域（保留城区小街道）
 CLOSE_ITER = 2
 # ==============================================
 
@@ -167,6 +167,14 @@ def main():
             g = sanitize_polygonal(g)
             if g is not None and not g.is_empty and g.area > 0:
                 regions.append(g)
+    # 外边界：海岸线采用 2002 图，与邻县交界的陆地界线采用原 SHP（保证严丝合缝）
+    orig_hk = unary_union(list(hk.geometry)).buffer(0)
+    others = unary_union(list(gdf[~gdf["code"].str.startswith(HAIKOU_PREFIX)].geometry)).buffer(0)
+    new_hk = unary_union(regions).buffer(0)
+    domain = (new_hk.intersection(orig_hk)) | (new_hk.difference(orig_hk).difference(others))
+    regions = [sanitize_polygonal(g.intersection(domain)) for g in regions]
+    regions = [g for g in regions if g is not None and not g.is_empty
+               and g.geom_type in ("Polygon", "MultiPolygon") and g.area > 0]
     regions.sort(key=lambda g: -g.area)
     print(f"矢量化区域 {len(regions)} 个")
 

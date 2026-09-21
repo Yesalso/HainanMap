@@ -544,7 +544,28 @@ def assign_gaps(geoms, labels, gaps, tol: float, prefer_same_code: bool = True):
 # 4. 重叠剔除 / 分区归一
 # --------------------------------------------------------------------------- #
 
-def remove_overlaps(geoms, tol: float):
+def _robust_difference(a, b, grid: float):
+    """对 a∖b 做鲁棒差集：GEOS 数值退化时按更粗网格规范化 b 逐级重试。"""
+    try:
+        d = a.difference(b)
+        if d is not None and not d.is_empty and d.is_valid:
+            return d
+    except Exception:
+        pass
+    for brk in (0.01, 0.05, max(grid, 0.001), 0.1, 0.5, 1.0, 5.0):
+        try:
+            bb = to_polygonal(set_precision(b, brk))
+            if bb is None or bb.is_empty:
+                continue
+            d = a.difference(bb)
+            if d is not None and not d.is_empty and d.is_valid:
+                return d
+        except Exception:
+            continue
+    return a
+
+
+def remove_overlaps(geoms, tol: float, grid: float = 0.001):
     """顺序占用法：面积大者优先占据重叠区，保证互斥。返回 (新几何, 剔除面积)。"""
     order = sorted(range(len(geoms)), key=lambda i: -geoms[i].area)
     out = [EMPTY] * len(geoms)
@@ -553,12 +574,13 @@ def remove_overlaps(geoms, tol: float):
     for i in order:
         g = geoms[i]
         if occ is not None and not occ.is_empty:
-            clipped = g.difference(occ)
+            clipped = _robust_difference(g, occ, grid)
             removed += max(0.0, g.area - clipped.area)
             g = clipped
         g = to_polygonal(make_valid(g)) if (g is not None and not g.is_empty and not g.is_valid) else g
         out[i] = g if g is not None else EMPTY
-        occ = out[i] if occ is None else unary_union([occ, out[i]])
+        if out[i] is not None and not out[i].is_empty:
+            occ = out[i] if occ is None else unary_union([occ, out[i]])
     return out, removed
 
 
@@ -700,12 +722,11 @@ def resolve_partition(geoms, domain, labels, orig_geoms, ref_geoms, tol: float,
                 if p.area >= min_area:
                     frags.append((p, None))
 
+    dropped = []
     if len(frags) > max_frags:
         frags.sort(key=lambda x: -x[0].area)
-        dropped = frags[max_frags:]
+        dropped = [p for p, _ in frags[max_frags:]]
         frags = frags[:max_frags]
-    else:
-        dropped = []
 
     # ---------- ② 裁定归属 ----------
     try:
@@ -766,7 +787,7 @@ def resolve_partition(geoms, domain, labels, orig_geoms, ref_geoms, tol: float,
            for g in out]
     out = [precision_normalize(g, grid) if (g is not None and not g.is_empty) else EMPTY
            for g in out]
-    out, _ = remove_overlaps(out, tol)
+    out, _ = remove_overlaps(out, tol, grid=grid)
     out = [drop_micro_holes(g, min_hole_area) if (g is not None and not g.is_empty) else EMPTY
            for g in out]
     out = [precision_normalize(g, grid) if (g is not None and not g.is_empty) else EMPTY
@@ -1435,7 +1456,7 @@ def main(argv=None):
                 if match is None or match.is_empty:      # 无码可用 → 空间求交
                     cand = [(geom.intersection(g).area, g) for g in ref.geometry
                             if g is not None and not g.is_empty and g.intersects(geom)]
-                    match = max(cand)[1] if cand else None
+                    match = max(cand, key=lambda x: x[0])[1] if cand else None
                 ref_geoms.append(match)
             matched = sum(1 for g in ref_geoms if g is not None and not g.is_empty)
             log(f"  参考匹配          : {matched}/{len(geoms)} 个要素成功匹配权威边界")

@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+import numpy as np, cv2, geopandas as gpd
+
+CRS = "EPSG:32649"
+SHP = r"D:\Windows\Documents\海南省村界\海南省村界\town\wenchang\chengmai\Hainan_town_chengmai.shp"
+IMG2010 = r"D:\Windows\Documents\海南省村界\海南省村界\town\wenchang\chengmai\Chengmai2010.png"
+IMGHAND = r"D:\Windows\Documents\海南省村界\海南省村界\town\wenchang\chengmai\Chengmai.png"
+
+g = gpd.read_file(SHP, encoding="utf-8")
+g = g.to_crs(CRS)
+minx, miny, maxx, maxy = g.total_bounds
+W, H = 2822, 3455
+sx, sy = (maxx - minx) / W, (maxy - miny) / H
+
+lines = np.zeros((H, W), np.uint8)
+for geom in g.geometry:
+    ring = geom.boundary
+    segs = list(ring.geoms) if ring.geom_type in ("MultiLineString", "GeometryCollection") else [ring]
+    for ln in segs:
+        if ln is None or ln.is_empty:
+            continue
+        c = np.array(ln.coords)
+        if len(c) < 2:
+            continue
+        pts = np.stack([(c[:, 0] - minx) / sx, (maxy - c[:, 1]) / sy], 1).astype(np.int32)
+        cv2.polylines(lines, [pts], False, 255, 1, cv2.LINE_8)
+lines = (lines == 255).astype(np.uint8)
+
+for name, p in [("Chengmai2010.png(现行渲染)", IMG2010), ("Chengmai.png(手绘)", IMGHAND)]:
+    img = cv2.imdecode(np.fromfile(p, dtype=np.uint8), cv2.IMREAD_COLOR)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    drawn = (gray < 100).astype(np.uint8)
+    dt = cv2.distanceTransform((1 - lines) * 255, cv2.DIST_L2, 3)
+    ys, xs = np.nonzero(drawn)
+    dd = dt[ys, xs]
+    print(f"{name}: 黑像素 {int(drawn.sum())}")
+    for t in (1, 2, 3, 5):
+        print(f"   距现行SHP边界 <= {t}px: {(dd <= t).mean():.4f}")
+    print(f"   平均 {dd.mean():.2f}px  中位 {np.median(dd):.2f}px")
