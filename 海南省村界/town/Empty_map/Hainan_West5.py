@@ -19,7 +19,7 @@ from io import BytesIO
 # ===================== 配置 =====================
 shp_path = "D:/Windows/Documents/海南省村界/海南省村界/town/Hainan2002/Hainan_town.shp"
 excel_path = "D:/Windows/Documents/海南省村界/海南省村界/HainanMap.xlsx"
-out_dir = os.path.dirname(os.path.abspath(__file__))
+out_dir = r"D:/Windows/Documents/海南省村界/海南省村界/town/Empty_map/ing_blue/Trance_blue"
 
 TARGET_DPI = 100
 LINE_WIDTH_PT = 72.0 / TARGET_DPI
@@ -184,11 +184,13 @@ def generate_map(county_data, out_file):
 
 
 TARGET_COUNTIES = [
-    ("儋州市", "Danzhou"),
-    ("昌江黎族自治县", "Changjiang"),
-    ("白沙黎族自治县", "Baisha"),
-    ("乐东黎族自治县", "Ledong"),
-    ("东方市", "Dongfang"),
+    ("白沙黎族自治县", "baisha2"),
+    ("昌江黎族自治县", "Changjiang2"),
+    ("东方市", "Dongfang12"),
+    ("乐东黎族自治县", "Ledong12"),
+    ("五指山市", "Tongza12"),
+    ("屯昌县", "Tunchang12"),
+    ("万宁市", "Wanning2"),
 ]
 
 for county, eng_name in TARGET_COUNTIES:

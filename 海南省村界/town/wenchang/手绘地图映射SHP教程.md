@@ -137,6 +137,7 @@ python check_reverse.py --new wenchang2002_fixed.shp --out wenchang2002_fixed
 | fix_partition | `--snap-m` | **30** | 旧乡镇向外生长量(m)，贴黑线中心；经验最优 |
 | fix_partition | `--max-gap-width` | 60 | 细条/缝隙最大宽度(m)，超过不视为细屑 |
 | fix_partition | `--min-hole-m2` | 1 | 微孔洞阈值(m²) |
+| fix_partition | `--min-part-m2` | 0 | 剔除被改动要素中的孤立碎屑/毛刺(m²)，0=关闭（琼海取 100） |
 | fix_partition | `--grid` | 0 | 精度归一网格(m)，0=关闭（避免动到未受影响乡镇） |
 
 **snap_m 怎么定**：以"旧乡镇边界↔黑线中心"贴合度为准。文昌实测：
@@ -167,6 +168,7 @@ python check_reverse.py --new wenchang2002_fixed.shp --out wenchang2002_fixed
 | 同一颜色两块分不清谁是谁 | 需要命名顺序 | 颜色表写列表 + `multi_order`（coast/area） |
 | 母镇出现等面积孔洞、旧乡镇内缩 | 半像素偏移 | 跑 `fix_partition.py`（`--snap-m 30`） |
 | 修复后仍有细条/细屑 | 手绘线宽不均（>2px） | 增大 `--max-gap-width`，或略增 `--snap-m` |
+| QA 报出巨大重叠（但面积守恒） | 生长/消残条产生 <100m² 毛刺，触发 GEOS 谓词假阳性（`unary_union` 无重叠） | 加 `--min-part-m2 100` 剔除毛刺（琼海即此情形） |
 | 出现大量窄条 | snap_m 过小/过大 | 按 §5 用贴合度扫描选最优 |
 | 未受影响乡镇被改动 | 对全层做了精度归一/去重叠 | 只对"新增/被拆分"要素做收尾（本脚本已如此） |
 | 中文乱码 | 控制台 GBK | `$env:PYTHONIOENCODING='utf-8'` |
@@ -188,7 +190,7 @@ python check_reverse.py --new wenchang2002_fixed.shp --out wenchang2002_fixed
 3. 依次跑：
    ```powershell
    python reverse_by_color.py --shp <县>.shp --img <县>_draw.png --out <县>2002 --color-map color_map_<县>.json
-   python fix_partition.py --in <县>2002.shp --ref <县>.shp --out <县>2002_fixed --img <县>_draw.png --snap-m 30
+   python fix_partition.py --in <县>2002.shp --ref <县>.shp --out <县>2002_fixed --img <县>_draw.png --snap-m 30 --min-part-m2 100
    python check_reverse.py --shp <县>.shp --new <县>2002_fixed.shp --img <县>_draw.png --out <县>2002_fixed --color-map color_map_<县>.json
    ```
 4. 若手绘不是"在现行图上改"而是**完全重绘**，用 `town/ReverseCounty2002.py`（洪泛+EDT 唯一归属），

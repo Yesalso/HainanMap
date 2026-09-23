@@ -1,0 +1,10 @@
+{
+  "city": "五指山市",
+  "new_code_start": 469001203,
+  "new_order": ["保国乡", "红山乡"],
+  "multi_order": "area",
+  "colors": {
+    "#3F48CC": "保国乡",
+    "#00A2E8": "红山乡"
+  }
+}

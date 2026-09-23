@@ -1,13 +1,15 @@
 """
-从 Wenchang.png 中提取颜色 #3F48CC，其余像素全部透明，
-输出一张透明底色的 PNG 地图；抠出的像素填充为 #000000。
+从 SRC_DIR 中所有图片提取颜色 #3F48CC，其余像素全部透明，
+输出透明底色的 PNG 地图到 DST_DIR；抠出的像素填充为 #000000。
 """
 from PIL import Image
 import numpy as np
+from pathlib import Path
 
 # ============ 参数设置 ============
-SRC = r"D:\Windows\Documents\海南省村界\海南省村界\town\Empty_map\Wenchang.png"
-DST = r"D:\Windows\Documents\海南省村界\海南省村界\town\Empty_map\Wenchang_blue.png"
+SRC_DIR = Path(r"D:\Windows\Documents\海南省村界\海南省村界\town\Empty_map\ing_blue\Trance")
+DST_DIR = Path(r"D:\Windows\Documents\海南省村界\海南省村界\town\Empty_map\ing_blue\Trance_blue")
+SUFFIX = "_blue"
 
 TARGET = (0x3F, 0x48, 0xCC)   # 要匹配的颜色 #3F48CC
 FILL = (0x00, 0x00, 0x00)     # 抠出后填充的颜色 #000000
@@ -39,4 +41,12 @@ def extract_color(src, dst, target, fill, tol=0):
 
 
 if __name__ == "__main__":
-    extract_color(SRC, DST, TARGET, FILL, TOL)
+    DST_DIR.mkdir(parents=True, exist_ok=True)
+    files = sorted(p for p in SRC_DIR.iterdir()
+                   if p.suffix.lower() in (".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff"))
+    if not files:
+        print(f"未找到图片: {SRC_DIR}")
+    for src in files:
+        dst = DST_DIR / f"{src.stem}{SUFFIX}.png"
+        print(f"处理: {src.name}")
+        extract_color(str(src), str(dst), TARGET, FILL, TOL)

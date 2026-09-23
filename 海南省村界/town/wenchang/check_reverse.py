@@ -70,6 +70,8 @@ def main(argv=None):
         with open(args.color_map, encoding="utf-8") as f:
             colors = json.load(f).get("colors", {})
 
+    args.out = os.path.abspath(args.out)
+
     cur = gpd.read_file(args.shp, encoding="utf-8")
     new = gpd.read_file(args.new, encoding="utf-8")
     cur = cur.to_crs(args.crs)

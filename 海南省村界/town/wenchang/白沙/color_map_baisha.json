@@ -1,0 +1,10 @@
+{
+  "city": "白沙黎族自治县",
+  "new_code_start": 469025207,
+  "new_order": ["狮球乡", "白沙镇"],
+  "multi_order": "area",
+  "colors": {
+    "#3F48CC": "狮球乡",
+    "#22B14C": "白沙镇"
+  }
+}

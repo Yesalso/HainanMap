@@ -132,6 +132,20 @@ def drop_micro_holes(g, min_hole_area):
         return g
 
 
+def drop_micro_parts(g, min_part_area):
+    """剔除孤立碎屑/毛刺（面积 < min_part_area 的独立部分），只用于被改动要素。"""
+    if g is None or g.is_empty or min_part_area <= 0:
+        return g
+    try:
+        parts = parts_of(g)
+        keep = [p for p in parts if p.area >= min_part_area]
+        if len(keep) == len(parts) or not keep:
+            return g
+        return unary_union(keep)
+    except Exception:
+        return g
+
+
 def width_index(g):
     return (2.0 * g.area / g.length) if g.length > 0 else 0.0
 
@@ -291,6 +305,8 @@ def main(argv=None):
                     help="旧乡镇向外生长量(m)，≈1.5px，令其贴到手绘黑线中心（经验最优）")
     ap.add_argument("--max-gap-width", type=float, default=60.0)
     ap.add_argument("--min-hole-m2", type=float, default=1.0)
+    ap.add_argument("--min-part-m2", type=float, default=0.0,
+                    help="收尾后剔除被改动要素中面积小于该值的孤立碎屑/毛刺(m²)，0=关闭")
     ap.add_argument("--grid", type=float, default=0.0, help="精度归一网格(m)，0=关闭")
     ap.add_argument("--no-albers", action="store_true")
     args = ap.parse_args(argv)
@@ -397,6 +413,8 @@ def main(argv=None):
         g = r["geom"]
         if not r.get("touch"):
             g = repair_validity(g) or EMPTY
+        elif args.min_part_m2 > 0:
+            g = drop_micro_parts(g, args.min_part_m2)
         geoms_out.append(g)
 
     meta = dict(
@@ -455,7 +473,8 @@ def main(argv=None):
         f.write(f"- 权威参考：`{os.path.abspath(args.ref)}`\n")
         f.write(f"- 坐标系：`{args.crs}`\n")
         f.write(f"- 参数：snap_m={args.snap_m:g} m，max_gap_width={args.max_gap_width:g} m，"
-                f"min_hole={args.min_hole_m2:g} m²，grid={args.grid:g} m\n")
+                f"min_hole={args.min_hole_m2:g} m²，min_part={args.min_part_m2:g} m²，"
+                f"grid={args.grid:g} m\n")
         f.write(f"- 生成时间：{datetime.datetime.now():%Y-%m-%d %H:%M:%S}\n\n")
         f.write("## 1. 修复前诊断\n\n```\n")
         for k, v in d0.items():
