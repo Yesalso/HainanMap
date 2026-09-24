@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-海南本岛 · 三亞市 地图（1px:20m 比例尺，空白版）
-仅生成三亚市地图
+海南本岛 · 臨高縣 & 澄邁縣 两张地图（繁体标注）
+仅生成两个县的地图，不生成全省图
+强制换行：兴隆华侨农场、洋浦经济开发区（简繁均支持）
 跳过标注：海口市和三亚市所有乡镇（不显示任何地名）
-输出文件名：Sanya.png
+北峙岛：强制左侧外部，距离边界≥100像素
+临城镇：优先上方
+输出文件名：Lingao.png、Chengmai.png
 """
 import os
 import re
@@ -19,16 +22,16 @@ from io import BytesIO
 from shapely.geometry import Point, Polygon
 
 # ===================== 配置 =====================
-shp_path = "D:/Windows/Documents/海南省村界/海南省村界/2002/hainan/Hainan_town.shp"
+shp_path = "D:/Windows/Documents/海南省村界/海南省村界/海南村界.shp"
 excel_path = "D:/Windows/Documents/海南省村界/海南省村界/HainanMap.xlsx"
-out_dir = "D:/Windows/Documents/海南省村界/海南省村界/town/wenchang/三亚"
+out_dir = "C:/Users/Windows/Desktop/Output"
 
 TARGET_DPI = 100
 LINE_WIDTH_PT = 72.0 / TARGET_DPI
 TARGET_CRS = "EPSG:32649"
 BINARY_THRESHOLD = 200
 
-PIXEL_TO_METER = 20  # 比例尺：1 像素 = 20 米
+PIXEL_TO_METER = 30
 FONT_MIN = 16
 FONT_MAX = 36
 FONT_DEFAULT = 28
@@ -84,7 +87,7 @@ print(f"Excel 映射记录数：{len(key_to_info)}")
 
 # ---------- 读取 SHP ----------
 gdf = None
-for enc in ["utf-8", "gbk", "gb2312", "latin1"]:
+for enc in ["gbk", "utf-8", "gb2312", "latin1"]:
     try:
         gdf = gpd.read_file(shp_path, encoding=enc)
         print(f"成功以 {enc} 编码读取")
@@ -96,7 +99,7 @@ if gdf is None:
 
 # 字段识别
 cols = gdf.columns.tolist()
-name_col = next((c for c in ["TOWN", "XZQMC", "NAME", "name", "名称"] if c in cols), None)
+name_col = next((c for c in ["XZQMC", "NAME", "name", "名称"] if c in cols), None)
 code_col = next((c for c in ["XZQDM", "CODE", "code", "行政区码"] if c in cols), None)
 if name_col is None or code_col is None:
     raise ValueError(f"未找到名称或代码字段，现有：{cols}")
@@ -112,9 +115,6 @@ print(f"排除三沙市后：{len(gdf)}")
 
 # 提取乡镇码
 gdf["乡镇码"] = gdf[code_col].astype(str).str[:9]
-
-# 修复无效几何（部分要素边界自相交，否则 dissolve 会报拓扑错误）
-gdf["geometry"] = gdf.geometry.buffer(0)
 
 # 提取乡镇名
 def extract_township(name):
@@ -150,9 +150,6 @@ for idx, row in township.iterrows():
             if k in extracted or extracted in k:
                 info = v
                 break
-    if info is None and "CITY" in cols:
-        info = {"display": full, "city": str(row["CITY"]),
-                "en": str(row["EN"]) if "EN" in cols else ""}
     if info:
         matched.append({"index": idx, "display": info["display"], "city": info["city"], "en": info["en"]})
 
@@ -419,15 +416,7 @@ def generate_county_map(county_data, county_name, out_dir, file_name=None):
         img = cv2.imdecode(np.frombuffer(buf.getvalue(), np.uint8), cv2.IMREAD_COLOR)
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         _, bin_img = cv2.threshold(gray, BINARY_THRESHOLD, 255, cv2.THRESH_BINARY)
-        ok, enc_png = cv2.imencode(
-            ".png", cv2.cvtColor(bin_img, cv2.COLOR_GRAY2BGR),
-            [cv2.IMWRITE_PNG_COMPRESSION, 9])
-        if ok:
-            with open(out_file, "wb") as f:
-                f.write(enc_png.tobytes())
-        else:
-            with open(out_file, "wb") as f:
-                f.write(buf.getvalue())
+        cv2.imwrite(out_file, cv2.cvtColor(bin_img, cv2.COLOR_GRAY2BGR), [cv2.IMWRITE_PNG_COMPRESSION, 9])
     except:
         with open(out_file, "wb") as f:
             f.write(buf.getvalue())
@@ -435,7 +424,8 @@ def generate_county_map(county_data, county_name, out_dir, file_name=None):
 
 # 筛选临高县和澄迈县，并指定英文文件名
 target_counties = [
-    ("三亚市", "Sanya")
+    ("临高县", "Lingao"),
+    ("澄迈县", "Chengmai")
 ]
 for county, eng_name in target_counties:
     county_subset = township[township["县市_简"] == county].copy()
