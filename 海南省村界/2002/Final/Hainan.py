@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-海南本岛 · 臨高縣 & 澄邁縣 两张地图（繁体标注）
-仅生成两个县的地图，不生成全省图
+海南本岛 · 全省乡镇地图（繁体标注）
+读取 Final/Hainan_town_codefix.shp 绘制全省乡镇地图
 强制换行：兴隆华侨农场、洋浦经济开发区（简繁均支持）
 跳过标注：海口市和三亚市所有乡镇（不显示任何地名）
 北峙岛：强制左侧外部，距离边界≥100像素
 临城镇：优先上方
-输出文件名：Lingao.png、Chengmai.png
+输出文件名：Hainan_town_codefix.png
 """
 import os
 import re
@@ -20,14 +20,23 @@ import pandas as pd
 import numpy as np
 from io import BytesIO
 from shapely.geometry import Point, Polygon
+from shapely.ops import unary_union
+import shapely
 
 # ===================== 配置 =====================
-shp_path = "D:/Windows/Documents/海南省村界/海南省村界/海南村界.shp"
-excel_path = "D:/Windows/Documents/海南省村界/海南省村界/HainanMap.xlsx"
-out_dir = "C:/Users/Windows/Desktop/Output"
+shp_path = "D:/Windows/Documents/海南省村界/海南省村界/2002/Final/Hainan_town_codefix.shp"
+out_dir = "D:/Windows/Documents/海南省村界/海南省村界/2002/Final"
 
 TARGET_DPI = 100
-LINE_WIDTH_PT = 72.0 / TARGET_DPI
+SIMPLIFY_TOL_M = 5      # 读取后统一简化容差（米）：修自交、去针刺抖动
+GENERATE_LABELED = False  # 是否生成含地名的标注版大图（当前只出 1:60 无地名底图）
+ANTIALIAS_LINES = True    # 线条抗锯齿：消除硬像素对齐造成的粗细跳变
+MERGE_SHARED_EDGES = True # 合并相邻乡镇共享边，只描边一次，消除叠加双线
+SNAP_GRID_M = 10          # 坐标吸附栅格（米，0=关闭）：消除亚像素抖动、帮助重合共享边
+TOWN_LINE_PX = 0.5      # 乡镇边界线宽（像素）
+COUNTY_LINE_PX = 2      # 县市边界线宽（像素）
+COUNTY_MIN_AREA_KM2 = 2 # 绘制县市边界的最小面积阈值，过滤沿海小岛碎片
+LINE_WIDTH_PT = TOWN_LINE_PX * 72.0 / TARGET_DPI
 TARGET_CRS = "EPSG:32649"
 BINARY_THRESHOLD = 200
 
@@ -67,27 +76,12 @@ def find_font():
 font_name = find_font()
 print("使用字体：", font_name)
 
-# ---------- 读取 Excel ----------
-df_excel = pd.read_excel(excel_path, header=None, usecols="A,C,D,E", dtype=str)
-df_excel.columns = ["key", "en_name", "city_cn", "display_name"]
-df_excel = df_excel.dropna(subset=["key", "display_name", "city_cn"])
-for col in ["key", "display_name", "en_name", "city_cn"]:
-    df_excel[col] = df_excel[col].str.strip()
-
-key_to_info = {}
-for _, row in df_excel.iterrows():
-    key = row["key"]
-    if key not in key_to_info:
-        key_to_info[key] = {
-            "display": row["display_name"],
-            "city": row["city_cn"],
-            "en": row["en_name"]
-        }
-print(f"Excel 映射记录数：{len(key_to_info)}")
+# ---------- 乡镇地名 ----------
+# Hainan_town_codefix.shp 已自带 TOWN/CITY/EN 字段，直接使用，不再依赖外部 Excel 映射
 
 # ---------- 读取 SHP ----------
 gdf = None
-for enc in ["gbk", "utf-8", "gb2312", "latin1"]:
+for enc in ["utf-8", "gbk", "gb2312", "latin1"]:
     try:
         gdf = gpd.read_file(shp_path, encoding=enc)
         print(f"成功以 {enc} 编码读取")
@@ -99,7 +93,7 @@ if gdf is None:
 
 # 字段识别
 cols = gdf.columns.tolist()
-name_col = next((c for c in ["XZQMC", "NAME", "name", "名称"] if c in cols), None)
+name_col = next((c for c in ["XZQMC", "NAME", "name", "名称", "TOWN", "Town", "town"] if c in cols), None)
 code_col = next((c for c in ["XZQDM", "CODE", "code", "行政区码"] if c in cols), None)
 if name_col is None or code_col is None:
     raise ValueError(f"未找到名称或代码字段，现有：{cols}")
@@ -108,6 +102,22 @@ print(f"名称字段：{name_col}，代码字段：{code_col}")
 # 投影
 gdf = gdf.to_crs(TARGET_CRS)
 print(f"原始要素数：{len(gdf)}")
+
+# 几何清理：buffer(0) 修复自交/无效，simplify 去除针刺抖动与冗余顶点
+def _npts(gs):
+    n = 0
+    for go in gs:
+        for g0 in (go.geoms if go.geom_type == "MultiPolygon" else [go]):
+            n += len(g0.exterior.coords) + sum(len(r.coords) for r in g0.interiors)
+    return n
+
+before_n = _npts(gdf.geometry)
+gdf["geometry"] = gdf.geometry.buffer(0).simplify(
+    SIMPLIFY_TOL_M, preserve_topology=True)
+if SNAP_GRID_M > 0:
+    gdf["geometry"] = gdf.geometry.apply(lambda g0: shapely.set_precision(g0, SNAP_GRID_M))
+after_n = _npts(gdf.geometry)
+print(f"几何清理：简化容差 {SIMPLIFY_TOL_M}m，有效 {int(gdf.geometry.is_valid.sum())}/{len(gdf)}，顶点 {before_n}->{after_n}")
 
 # 排除三沙市
 gdf = gdf[~gdf[name_col].astype(str).str.startswith("三沙市")].copy()
@@ -127,40 +137,19 @@ def extract_township(name):
         return m.group(1)
     return s
 
-# 合并乡镇
-township = gdf.dissolve(by="乡镇码", aggfunc="first").reset_index()
-township["原始全名"] = township["乡镇码"].map(dict(zip(gdf["乡镇码"], gdf[name_col])))
+# 乡镇数据（Hainan_town_codefix.shp 中乡镇码唯一，无需 dissolve 合并）
+township = gdf.reset_index(drop=True).copy()
+township["原始全名"] = township[name_col].astype(str)
 township["提取乡镇名"] = township["原始全名"].apply(extract_township)
 
-# 匹配 Excel
-matched = []
-for idx, row in township.iterrows():
-    code = row["乡镇码"]
-    full = row["原始全名"]
-    extracted = row["提取乡镇名"]
-    info = None
-    if code in key_to_info:
-        info = key_to_info[code]
-    elif full in key_to_info:
-        info = key_to_info[full]
-    elif extracted in key_to_info:
-        info = key_to_info[extracted]
-    else:
-        for k, v in key_to_info.items():
-            if k in extracted or extracted in k:
-                info = v
-                break
-    if info:
-        matched.append({"index": idx, "display": info["display"], "city": info["city"], "en": info["en"]})
-
-if not matched:
-    raise ValueError("无匹配乡镇")
-township = township.loc[[r["index"] for r in matched]].copy()
-township["显示地名"] = [r["display"] for r in matched]
-township["县市"] = [r["city"] for r in matched]
-township["英文名"] = [r["en"] for r in matched]
+# 地名/县市/英文名直接取自 SHP（避免外部 Excel 映射）
+township["显示地名"] = township[name_col].astype(str)
+township["县市"] = township["CITY"].astype(str)
+township["英文名"] = township["EN"].astype(str)
 township["县市_简"] = township["县市"].apply(to_simple)
-print(f"匹配到 {len(township)} 个乡镇/街道")
+
+township = township[township["显示地名"].isin(["", "nan"]) == False].copy()
+print(f"共 {len(township)} 个乡镇/街道")
 
 # ---------- 跳过标注：海口市和三亚市所有乡镇均不标注 ----------
 def should_skip(row):
@@ -353,11 +342,12 @@ def optimize_label(geom, raw_text):
 
 
 # ---------- 生成各县地图 ----------
-def generate_county_map(county_data, county_name, out_dir, file_name=None):
+def generate_county_map(county_data, county_name, out_dir, file_name=None, draw_labels=True):
     """
     生成单个县的地图
     county_name: 中文名称（用于打印）
     file_name: 输出文件名（不含扩展名），若为None则使用county_name
+    draw_labels: 是否绘制地名标注
     """
     if file_name is None:
         file_name = county_name
@@ -391,18 +381,51 @@ def generate_county_map(county_data, county_name, out_dir, file_name=None):
     ax.set_aspect('equal')
     ax.axis("off")
 
-    county_data.plot(ax=ax, edgecolor="black", facecolor="white",
-                     linewidth=LINE_WIDTH_PT, antialiased=False, legend=False)
+    # 乡镇边界：合并相邻乡镇共享边后只描边一次，避免重复描边造成的双线/粗细不均
+    if MERGE_SHARED_EDGES:
+        boundary_line = unary_union([geom.boundary for geom in county_data.geometry])
+        gpd.GeoSeries([boundary_line], crs=county_data.crs).plot(
+            ax=ax, color="black", linewidth=LINE_WIDTH_PT,
+            antialiased=ANTIALIAS_LINES)
+    else:
+        county_data.plot(ax=ax, edgecolor="black", facecolor="white",
+                         linewidth=LINE_WIDTH_PT, antialiased=ANTIALIAS_LINES, legend=False)
 
-    for idx, row in county_data.iterrows():
-        if row["skip_label"]:
-            continue
-        raw_txt = str(row["显示地名"])
-        trad_txt = to_trad(raw_txt)
-        display_txt, font_size, point = optimize_label(row.geometry, trad_txt)
-        ax.text(point.x, point.y, display_txt,
-                fontsize=font_size, ha="center", va="center",
-                fontfamily=font_name, color="black", zorder=3)
+    # 县市边界：按县市溶解后绘制，线宽 2px（叠加在乡镇边界之上）
+    # 过滤面积小于阈值的小岛碎片，避免沿海区域出现大量粗线小圈
+    if "县市" in county_data.columns and county_data["县市"].nunique() > 1:
+        try:
+            merged = county_data.copy()
+            merged["geometry"] = merged.geometry.buffer(0)
+            counties = merged.dissolve(by="县市", aggfunc="first")
+            min_area = COUNTY_MIN_AREA_KM2 * 1e6
+            big_parts, filtered = [], 0
+            for g0 in counties.geometry:
+                polys = list(g0.geoms) if g0.geom_type == "MultiPolygon" else [g0]
+                for p in polys:
+                    if p.area >= min_area:
+                        big_parts.append(p)
+                    else:
+                        filtered += 1
+            county_pt = COUNTY_LINE_PX * 72.0 / TARGET_DPI
+            if big_parts:
+                gpd.GeoSeries(big_parts, crs=counties.crs).boundary.plot(
+                    ax=ax, color="black", linewidth=county_pt, antialiased=ANTIALIAS_LINES, zorder=2)
+            if filtered:
+                print(f"县市边界过滤小岛碎片 {filtered} 块（<{COUNTY_MIN_AREA_KM2}km²）")
+        except Exception as e:
+            print(f"⚠️ 县市边界绘制失败：{e}")
+
+    if draw_labels:
+        for idx, row in county_data.iterrows():
+            if row["skip_label"]:
+                continue
+            raw_txt = str(row["显示地名"])
+            trad_txt = to_trad(raw_txt)
+            display_txt, font_size, point = optimize_label(row.geometry, trad_txt)
+            ax.text(point.x, point.y, display_txt,
+                    fontsize=font_size, ha="center", va="center",
+                    fontfamily=font_name, color="black", zorder=3)
 
     out_file = os.path.join(out_dir, f"{file_name}.png")
     print(f"保存 {out_file} ...")
@@ -411,28 +434,20 @@ def generate_county_map(county_data, county_name, out_dir, file_name=None):
     plt.close(fig)
     buf.seek(0)
 
-    try:
-        import cv2
-        img = cv2.imdecode(np.frombuffer(buf.getvalue(), np.uint8), cv2.IMREAD_COLOR)
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        _, bin_img = cv2.threshold(gray, BINARY_THRESHOLD, 255, cv2.THRESH_BINARY)
-        cv2.imwrite(out_file, cv2.cvtColor(bin_img, cv2.COLOR_GRAY2BGR), [cv2.IMWRITE_PNG_COMPRESSION, 9])
-    except:
-        with open(out_file, "wb") as f:
-            f.write(buf.getvalue())
-        print(f"⚠️ 未安装opencv，直接保存 {out_file}")
+    # 直接保存 matplotlib 输出（保留抗锯齿均匀线条，不做硬二值化）
+    with open(out_file, "wb") as f:
+        f.write(buf.getvalue())
+    print(f"已保存 {out_file}")
 
-# 筛选临高县和澄迈县，并指定英文文件名
-target_counties = [
-    ("临高县", "Lingao"),
-    ("澄迈县", "Chengmai")
-]
-for county, eng_name in target_counties:
-    county_subset = township[township["县市_简"] == county].copy()
-    if county_subset.empty:
-        print(f"警告：未找到 {county} 的数据")
-        continue
-    print(f"生成 {county} 地图，包含 {len(county_subset)} 个乡镇/街道")
-    generate_county_map(county_subset, county, out_dir, file_name=eng_name)
+# ---------- 生成全省地图（标注版，默认关闭） ----------
+if GENERATE_LABELED:
+    print(f"生成 海南全岛 地图，包含 {len(township)} 个乡镇/街道")
+    generate_county_map(township, "海南全岛", out_dir, file_name="Hainan_town_codefix")
+
+# ---------- 60米/像素、无地名底图 ----------
+PIXEL_TO_METER = 60
+print(f"生成 海南全岛 无地名底图（{PIXEL_TO_METER} 米/像素）")
+generate_county_map(township, "海南全岛(无地名)", out_dir,
+                    file_name="Hainan_town_codefix_no_label", draw_labels=False)
 
 print("\n✅ 所有地图生成完毕")

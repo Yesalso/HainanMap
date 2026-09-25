@@ -1,0 +1,18 @@
+{
+  "source": "D:\\Windows\\Documents\\海南省村界\\海南省村界\\2002\\Final\\Hainan_town_topo.shp",
+  "output": "D:\\Windows\\Documents\\海南省村界\\海南省村界\\2002\\Final\\Hainan_town_topo_v2.shp",
+  "grid_m": 2.0,
+  "features_total": 321,
+  "sanya_towns": 19,
+  "sanya_per_poly_len_before": 1066897.8330633333,
+  "sanya_per_poly_len_after": 1066903.1900007809,
+  "sanya_network_len_before": 767054.777400401,
+  "sanya_network_len_after": 767043.624417956,
+  "sanya_faces_before": 63,
+  "sanya_faces_after": 61,
+  "residual_narrow_bands": 33,
+  "gap_bands_absorbed": [],
+  "max_sanya_area_shift_km2": 0.00014663459967263043,
+  "neighbor_overlap_km2_before": 3.5974883678298863e-12,
+  "neighbor_overlap_km2_after": 4.417417927246092e-06
+}

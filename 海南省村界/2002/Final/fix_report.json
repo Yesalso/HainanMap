@@ -1,0 +1,51 @@
+{
+  "grid_m": 2.0,
+  "features": 321,
+  "per_poly_len_before": 18953084.755913682,
+  "per_poly_len_after": 18891161.79916671,
+  "network_len_before": 10657531.266176324,
+  "network_len_after": 10406238.128193134,
+  "degenerate_faces_before": 6533,
+  "degenerate_faces_after": 19,
+  "gap_type_offset_bands_fixed": 3,
+  "residual_inter_town_bands": 0,
+  "max_area_shift_km2": 0.04201504133845866,
+  "gap_bands_top": [
+    {
+      "width_m": 50.0,
+      "area_m2": 13310,
+      "bounds": [
+        418728,
+        2184346,
+        418936,
+        2184460
+      ],
+      "absorbed_into": "东山镇"
+    },
+    {
+      "width_m": 34.5,
+      "area_m2": 5742,
+      "bounds": [
+        412178,
+        2181082,
+        412300,
+        2181156
+      ],
+      "absorbed_into": "瑞溪镇"
+    },
+    {
+      "width_m": 26.4,
+      "area_m2": 3298,
+      "bounds": [
+        410680,
+        2186240,
+        410756,
+        2186312
+      ],
+      "absorbed_into": "瑞溪镇"
+    }
+  ],
+  "gap_patches_final": 1,
+  "removed_duplicate_segments": 695,
+  "removed_duplicate_length_m": 17375.698004211547
+}

@@ -25,3 +25,6 @@ desktop.ini
 # 临时/派生文件
 *.bak
 *.tmp
+
+# 工具记忆文件
+.workbuddy/
