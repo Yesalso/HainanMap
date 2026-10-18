@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>省長選舉 · 得票地圖</title>
+<link rel="stylesheet" href="./css/election.css">
+</head>
+<body>
+
+<!-- ===== 頂部工具列 ===== -->
+<div id="toolbar">
+  <div id="brand">省長選舉得票地圖<small id="yearTag"></small></div>
+  <div class="spacer"></div>
+  <span class="scopeLabel">範圍</span>
+  <div class="scopeTabs">
+    <button class="scopeTab active" id="scCity">市縣</button>
+    <button class="scopeTab" id="scTown">鄉鎮</button>
+  </div>
+  <label class="chkLabel" title="是否在地圖上顯示地名">
+    <input type="checkbox" id="chkLabels" checked> 地名
+  </label>
+  <button id="btnSummary" title="跳到市縣匯總表">市縣匯總</button>
+  <button id="btnRefresh" title="依「得票率」重算得票數等，寫回 省長選舉.xlsx，並刷新本頁數據">更新數據</button>
+  <div id="searchWrap">
+    <input id="search" type="text" placeholder="搜尋市縣／鄉鎮…" autocomplete="off">
+    <div id="suggest"></div>
+  </div>
+</div>
+
+<!-- ===== 地圖 ===== -->
+<div id="mapArea">
+  <svg id="svg"></svg>
+</div>
+
+<!-- ===== 縮放控件 ===== -->
+<div id="zoomCtl">
+  <button id="zin" title="放大">＋</button>
+  <button id="zout" title="縮小">－</button>
+  <button id="zreset" title="復位">⌂</button>
+</div>
+
+<!-- ===== 提示氣泡 ===== -->
+<div id="tip"></div>
+
+<!-- ===== 一鍵更新結果提示 ===== -->
+<div id="toast"></div>
+
+<!-- ===== 右側匯總欄 ===== -->
+<div id="side">
+  <div class="card" id="detail"></div>
+  <div class="card" id="summary"></div>
+</div>
+
+<!-- ===== 圖例 ===== -->
+<div id="legend"></div>
+
+<div id="hint">滾輪縮放 · 拖拽平移 · 點擊區域查看得票 · 點擊海面回到全省</div>
+
+<script src="./data.js"></script>
+<script src="./election_data.js"></script>
+<script src="./js/election.js"></script>
+</body>
+</html>

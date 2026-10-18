@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>海南省行政区划地图</title>
+<link rel="stylesheet" href="./css/map.css">
+</head>
+<body>
+
+<!-- ===== 顶部工具栏：模式切换 / 范围切换 / 搜索 ===== -->
+<div id="toolbar">
+  <div class="tabs">
+    <button class="tab active" id="tabAdmin">行政疆域</button>
+    <button class="tab" id="tabArea">面积比例</button>
+    <button class="tab" id="tabPop">人口分布</button>
+  </div>
+  <div class="spacer"></div>
+  <span class="scopeLabel" id="censusLabel" style="display:none">普查</span>
+  <div class="scopeTabs" id="censusTabs" style="display:none">
+    <button class="scopeTab active" id="cen7">七普</button>
+    <button class="scopeTab" id="cen6">六普</button>
+    <button class="scopeTab" id="cen5">五普</button>
+  </div>
+  <span class="scopeLabel">范围</span>
+  <div class="scopeTabs">
+    <button class="scopeTab active" id="scCity">市县</button>
+    <button class="scopeTab" id="scTown">乡镇</button>
+  </div>
+  <label class="chkLabel" title="是否在地图上显示地名">
+    <input type="checkbox" id="chkLabels" checked> 地名
+  </label>
+  <div id="searchWrap">
+    <input id="search" type="text" placeholder="搜索市县 / 乡镇…" autocomplete="off">
+    <div id="suggest"></div>
+  </div>
+</div>
+
+<!-- ===== 地图区域 ===== -->
+<div id="mapArea">
+  <svg id="svg"></svg>
+</div>
+
+<!-- ===== 缩放控件 ===== -->
+<div id="zoomCtl">
+  <button id="zin" title="放大">＋</button>
+  <button id="zout" title="缩小">－</button>
+  <button id="zreset" title="复位">⌂</button>
+</div>
+
+<!-- ===== 提示气泡 ===== -->
+<div id="tip"></div>
+
+<!-- ===== 右侧详情面板 ===== -->
+<div id="detail">
+  <span class="close" id="dClose">✕</span>
+  <div class="crumb" id="dCrumb"></div>
+  <h2 id="dName"></h2>
+  <div class="row"><div class="k">面积</div><div class="v big" id="dArea"></div></div>
+  <div class="row" id="dCompRow"><div class="k">下辖乡镇构成</div><div class="v" id="dComp"></div></div>
+  <div class="row"><div class="k" id="dPopK">常住人口（七普 2020）</div><div class="v pop" id="dPop"></div></div>
+  <div class="row" id="dCityRow"><div class="k">所属市县</div><div class="v" id="dCity"></div></div>
+  <div class="row" id="dCodeRow"><div class="k">行政区划代码</div><div class="v" id="dCode"></div></div>
+  <div class="row"><div class="k" id="dPopRankK"></div><div class="v" id="dPopRankV"></div>
+    <div class="bar popbar"><div id="dPopRankBar"></div></div>
+  </div>
+  <div class="row" id="dPopHistRow"><div class="k">历次人口普查（常住人口）</div><div class="v" id="dPopHist"></div></div>
+  <div class="row"><div class="k" id="dRankK"></div><div class="v" id="dRankV"></div>
+    <div class="bar"><div id="dBar"></div></div>
+  </div>
+  <button class="btn" id="dGoTown">查看下属乡镇分布 →</button>
+</div>
+
+<!-- ===== 图例 ===== -->
+<div id="legend">
+  <div class="t" id="lgTitle"></div>
+  <div class="cells" id="lgCells"></div>
+  <div class="labs" id="lgLabs"></div>
+</div>
+
+<div id="hint">滚轮缩放 · 拖拽平移 · 点击查看详情 · 点击海面取消选中</div>
+
+<script src="./data.js"></script>
+<script src="./js/map.js"></script>
+</body>
+</html>
